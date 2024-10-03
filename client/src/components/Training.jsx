@@ -8,22 +8,22 @@ import { Calendar } from "primereact/calendar";
 import { Dropdown } from "primereact/dropdown";
 import { Dialog } from "primereact/dialog";
 import Navbar from "./Navbar";
+import axios from "axios";
 import { MultiSelect } from "primereact/multiselect";
-import axios from 'axios'; // Import Axios
 
 const CustomerService = {
   getCustomersMedium() {
     return new Promise((resolve) => {
       resolve([
         {
-          training_id: 1,
+          training_code: "TR-001",
           trainer_name: "John Doe",
           start_date: "2024-01-01",
           end_date: "2024-01-10",
           status: "completed",
         },
         {
-          training_id: 2,
+          training_code: "TR-002",
           trainer_name: "Jane Smith",
           start_date: "2024-02-15",
           end_date: "2024-02-25",
@@ -32,17 +32,16 @@ const CustomerService = {
       ]);
     });
   },
-  // Mock API to fetch users
-  getUsers() {
-    return new Promise((resolve) => {
-      resolve([
-        { _id: 1, username: "John Doe", role: "trainer" },
-        { _id: 2, username: "Jane Smith", role: "trainer" },
-        { _id: 3, username: "Mike Johnson", role: "user" },
-        { _id: 4, username: "Anna Davis", role: "user" },
-      ]);
-    });
-  },
+  // getUsers() {
+  //   return new Promise((resolve) => {
+  //     resolve([
+  //       { _id: "1", username: "John Doe", role: "trainer" },
+  //       { _id: "2", username: "Jane Smith", role: "trainer" },
+  //       { _id: "3", username: "Alice Johnson", role: "user" },
+  //       { _id: "4", username: "Bob Brown", role: "user" },
+  //     ]);
+  //   });
+  // },
 };
 
 export default function Training() {
@@ -51,22 +50,25 @@ export default function Training() {
   const [globalFilter, setGlobalFilter] = useState("");
   const [filters, setFilters] = useState({
     global: { value: null, matchMode: "contains" },
+    training_code: { value: null, matchMode: "startsWith" },
     trainer_name: { value: null, matchMode: "startsWith" },
-    start_date: { value: null, matchMode: "dateIs" },
-    end_date: { value: null, matchMode: "dateIs" },
+    start_date: { value: null, matchMode: "equals" },
+    end_date: { value: null, matchMode: "equals" },
     status: { value: null, matchMode: "equals" },
   });
 
-  const [visible, setVisible] = useState(false); // Dialog visibility
+  const [visible, setVisible] = useState(false);
   const [newTraining, setNewTraining] = useState({
+    training_code: "",
     trainer: null,
     participants: [],
     start_date: null,
     end_date: null,
-    status: "completed", // Default value for status
+    status: "completed",
   });
 
-  const [users, setUsers] = useState([]); // State to hold users
+  const [users, setUsers] = useState([]);
+
   const statuses = [
     { label: "Completed", value: "completed" },
     { label: "Ongoing", value: "ongoing" },
@@ -84,8 +86,17 @@ export default function Training() {
       setLoading(false);
     });
 
-    // Fetch users to populate trainer and participants dropdown
-    CustomerService.getUsers().then(setUsers);
+    const fetchUsers = async () => {
+      try {
+        const response = await axios.get("http://localhost:8080/users/"); // Replace with your actual API endpoint
+        setUsers(response.data); // Assuming response.data is an array of users
+      } catch (error) {
+        console.error("Error fetching users:", error);
+      }
+    };
+
+    fetchUsers();
+    // CustomerService.getUsers().then(setUsers);
   }, []);
 
   const formatDate = (value) => {
@@ -149,7 +160,7 @@ export default function Training() {
             value={globalFilter}
             onChange={onGlobalFilterChange}
             placeholder="Global Search"
-            style={{ paddingLeft: "2em" }} // Add padding to the left for the icon
+            style={{ paddingLeft: "2em" }}
           />
           <i
             className="pi pi-search"
@@ -164,38 +175,23 @@ export default function Training() {
           label="Add Training"
           className="mx-3"
           icon="pi pi-plus"
-          onClick={() => setVisible(true)} // Open dialog on click
+          onClick={() => setVisible(true)}
         />
       </div>
     </div>
   );
 
-  const handleDialogSubmit = async () => {
-    try {
-      console.log(newTraining.participants);
-      const response = await axios.post('http://localhost:8080/training/', { // Update the URL as necessary
-        trainer: newTraining.trainer,
-        participants: newTraining.participants,
-        start_date: newTraining.start_date,
-        end_date: newTraining.end_date,
-        status: newTraining.status,
-      });
-
-      console.log('Training Created:', response.data);
-
-      // Optionally update state or refresh the list of trainings
-      setTrainings([...trainings, { ...newTraining, training_id: trainings.length + 1 }]); // Adjust if you get an ID from the backend
-      setVisible(false);
-      setNewTraining({
-        trainer: null,
-        participants: [],
-        start_date: null,
-        end_date: null,
-        status: "completed",
-      });
-    } catch (error) {
-      console.error('Error adding training session:', error.response ? error.response.data : error.message);
-    }
+  const handleDialogSubmit = () => {
+    console.log("New Training:", newTraining);
+    setVisible(false);
+    setNewTraining({
+      training_code: "",
+      trainer: null,
+      participants: [],
+      start_date: null,
+      end_date: null,
+      status: "completed",
+    });
   };
 
   const dialogFooter = (
@@ -232,77 +228,198 @@ export default function Training() {
           value={trainings}
           paginator
           rows={10}
-          dataKey="training_id"
+          dataKey="training_code"
           filters={filters}
-          globalFilter={globalFilter}
-          header={header}
+          filterDisplay="row"
           loading={loading}
+          globalFilterFields={[
+            "trainer_name",
+            "start_date",
+            "end_date",
+            "status",
+            "training_code",
+          ]}
+          header={header}
           emptyMessage="No trainings found."
+          className="p-datatable-gridlines"
         >
-          <Column field="trainer_name" header="Trainer Name" sortable />
-          <Column field="start_date" header="Start Date" body={formatDate} sortable />
-          <Column field="end_date" header="End Date" body={formatDate} sortable />
-          <Column field="status" header="Status" body={statusBodyTemplate} sortable />
-          <Column body={detailsBodyTemplate} headerStyle={{ width: "8rem" }} />
+          <Column
+            field="training_code"
+            header="Training Code"
+            sortable
+            filter
+            style={{ minWidth: "10rem" }}
+          />
+          <Column
+            field="trainer_name"
+            header="Trainer Name"
+            sortable
+            filter
+            style={{ minWidth: "14rem" }}
+          />
+          <Column
+            field="start_date"
+            header="Start Date"
+            body={(rowData) => formatDate(rowData.start_date)}
+            sortable
+            filter
+            filterElement={
+              <Calendar
+                value={filters.start_date?.value}
+                onChange={(e) =>
+                  setFilters({
+                    ...filters,
+                    start_date: { value: e.value, matchMode: "equals" },
+                  })
+                }
+                placeholder="Filter by Start Date"
+                dateFormat="mm/dd/yy"
+                showIcon
+              />
+            }
+            style={{ minWidth: "12rem" }}
+          />
+          <Column
+            field="end_date"
+            header="End Date"
+            body={(rowData) => formatDate(rowData.end_date)}
+            sortable
+            filter
+            filterElement={
+              <Calendar
+                value={filters.end_date?.value}
+                onChange={(e) =>
+                  setFilters({
+                    ...filters,
+                    end_date: { value: e.value, matchMode: "equals" },
+                  })
+                }
+                placeholder="Filter by End Date"
+                dateFormat="mm/dd/yy"
+                showIcon
+              />
+            }
+            style={{ minWidth: "12rem" }}
+          />
+          <Column
+            field="status"
+            header="Status"
+            body={statusBodyTemplate}
+            sortable
+            filter
+            filterElement={
+              <Dropdown
+                value={filters.status?.value}
+                options={statuses}
+                onChange={(e) =>
+                  setFilters({
+                    ...filters,
+                    status: { value: e.value, matchMode: "equals" },
+                  })
+                }
+                placeholder="Filter by Status"
+              />
+            }
+            style={{ minWidth: "10rem" }}
+          />
+          <Column
+            header="Details"
+            body={detailsBodyTemplate}
+            style={{ minWidth: "8rem" }}
+          />
         </DataTable>
       </div>
 
       <Dialog
-        header="Add Training Session"
+        header="Add New Training"
         visible={visible}
-        onHide={() => setVisible(false)}
         footer={dialogFooter}
-        style={{ width: "40vw" }}
+        onHide={() => setVisible(false)}
+        style={{ width: "50%" }} // You can adjust the width as needed
       >
-        <div className="p-grid p-fluid">
-          <div className="p-field">
-            <label htmlFor="trainer">Trainer</label>
-            <Dropdown
-              id="trainer"
-              value={newTraining.trainer}
-              options={trainerOptions}
-              onChange={(e) => setNewTraining({ ...newTraining, trainer: e.value })}
-              placeholder="Select a Trainer"
-            />
-          </div>
-          <div className="p-field">
-            <label htmlFor="participants">Participants</label>
-            <MultiSelect
-              id="participants"
-              value={newTraining.participants}
-              options={participantOptions}
-              onChange={(e) => setNewTraining({ ...newTraining, participants: e.value })}
-              placeholder="Select Participants"
-            />
-          </div>
-          <div className="p-field">
-            <label htmlFor="start_date">Start Date</label>
-            <Calendar
-              id="start_date"
-              value={newTraining.start_date}
-              onChange={(e) => setNewTraining({ ...newTraining, start_date: e.value })}
-              placeholder="Select Start Date"
-            />
-          </div>
-          <div className="p-field">
-            <label htmlFor="end_date">End Date</label>
-            <Calendar
-              id="end_date"
-              value={newTraining.end_date}
-              onChange={(e) => setNewTraining({ ...newTraining, end_date: e.value })}
-              placeholder="Select End Date"
-            />
-          </div>
-          <div className="p-field">
-            <label htmlFor="status">Status</label>
-            <Dropdown
-              id="status"
-              value={newTraining.status}
-              options={statuses}
-              onChange={(e) => setNewTraining({ ...newTraining, status: e.value })}
-              placeholder="Select Status"
-            />
-          </div>
+        <div className="field mb-3">
+          <label htmlFor="training_code">Training Code</label>
+          <InputText
+            id="training_code"
+            value={newTraining.training_code}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, training_code: e.target.value })
+            }
+            placeholder="Enter Training Code"
+            className="w-full" // Make input full width
+          />
+        </div>
+
+        <div className="field mb-3">
+          <label htmlFor="trainer">Select Trainer</label>
+          <Dropdown
+            id="trainer"
+            value={newTraining.trainer}
+            options={trainerOptions}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, trainer: e.value })
+            }
+            placeholder="Select a Trainer"
+            className="w-full" // Make dropdown full width
+          />
+        </div>
+
+        <div className="field mb-3">
+          <label htmlFor="participants">Select Participants</label>
+          <MultiSelect
+            id="participants"
+            value={newTraining.participants}
+            options={participantOptions}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, participants: e.value })
+            }
+            placeholder="Select Participants"
+            className="w-full" // Make multi-select full width
+          />
+        </div>
+
+        <div className="field mb-3">
+          <label htmlFor="start_date">Start Date</label>
+          <Calendar
+            id="start_date"
+            value={newTraining.start_date}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, start_date: e.value })
+            }
+            placeholder="Select Start Date"
+            dateFormat="mm/dd/yy"
+            showIcon
+            className="w-full" // Make calendar full width
+          />
+        </div>
+
+        <div className="field mb-3">
+          <label htmlFor="end_date">End Date</label>
+          <Calendar
+            id="end_date"
+            value={newTraining.end_date}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, end_date: e.value })
+            }
+            placeholder="Select End Date"
+            dateFormat="mm/dd/yy"
+            showIcon
+            className="w-full" // Make calendar full width
+          />
+        </div>
+
+        <div className="field ">
+          <label htmlFor="status">Status</label>
+          <Dropdown
+            id="status"
+            value={newTraining.status}
+            options={statuses}
+            onChange={(e) =>
+              setNewTraining({ ...newTraining, status: e.value })
+            }
+            placeholder="Select a Status"
+            className="w-full" // Make dropdown full width
+          />
         </div>
       </Dialog>
     </>

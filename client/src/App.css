@@ -56,7 +56,9 @@ a{
   border-bottom: 1px solid #cccccca4; /* Add a light border between rows */
 }
 
-
+.w-full {
+  width: 100%;
+}
 
 .custom-menubar ul,
 .custom-menubar ol,
