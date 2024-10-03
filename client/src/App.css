@@ -86,3 +86,16 @@ a{
   width: 80%;
   max-width: 500px;
 }
+
+.user-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.p-field {
+  margin-bottom: 1.5rem;
+}

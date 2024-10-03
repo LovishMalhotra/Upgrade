@@ -16,6 +16,8 @@ export default function TemplateDemo() {
                     navigate('/training');
                 } else if (item.label === 'Home') {
                     navigate('/');
+                }  else if (item.label === 'Employee') {
+                    navigate('/register');
                 }
             }}
             style={{ cursor: 'pointer' }} // Optional: to indicate that it's clickable
@@ -39,49 +41,9 @@ export default function TemplateDemo() {
             template: itemRenderer // Add template here
         },
         {
-            label: 'Projects',
-            icon: 'pi pi-search',
-            items: [
-                {
-                    label: 'Core',
-                    icon: 'pi pi-bolt',
-                    shortcut: '⌘+S',
-                    template: itemRenderer
-                },
-                {
-                    label: 'Blocks',
-                    icon: 'pi pi-server',
-                    shortcut: '⌘+B',
-                    template: itemRenderer
-                },
-                {
-                    label: 'UI Kit',
-                    icon: 'pi pi-pencil',
-                    shortcut: '⌘+U',
-                    template: itemRenderer
-                },
-                {
-                    separator: true
-                },
-                {
-                    label: 'Templates',
-                    icon: 'pi pi-palette',
-                    items: [
-                        {
-                            label: 'Apollo',
-                            icon: 'pi pi-palette',
-                            badge: 2,
-                            template: itemRenderer
-                        },
-                        {
-                            label: 'Ultima',
-                            icon: 'pi pi-palette',
-                            badge: 3,
-                            template: itemRenderer
-                        }
-                    ]
-                }
-            ]
+            label: 'Employee',
+            icon: 'pi pi-user-plus',
+            template: itemRenderer
         },
         {
             label: 'Contact',

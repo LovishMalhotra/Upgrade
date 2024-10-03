@@ -10,41 +10,11 @@ import { Dialog } from "primereact/dialog";
 import Navbar from "./Navbar";
 import axios from "axios";
 import { MultiSelect } from "primereact/multiselect";
+import { useNavigate } from "react-router-dom";
 
-const CustomerService = {
-  getCustomersMedium() {
-    return new Promise((resolve) => {
-      resolve([
-        {
-          training_code: "TR-001",
-          trainer_name: "John Doe",
-          start_date: "2024-01-01",
-          end_date: "2024-01-10",
-          status: "completed",
-        },
-        {
-          training_code: "TR-002",
-          trainer_name: "Jane Smith",
-          start_date: "2024-02-15",
-          end_date: "2024-02-25",
-          status: "ongoing",
-        },
-      ]);
-    });
-  },
-  // getUsers() {
-  //   return new Promise((resolve) => {
-  //     resolve([
-  //       { _id: "1", username: "John Doe", role: "trainer" },
-  //       { _id: "2", username: "Jane Smith", role: "trainer" },
-  //       { _id: "3", username: "Alice Johnson", role: "user" },
-  //       { _id: "4", username: "Bob Brown", role: "user" },
-  //     ]);
-  //   });
-  // },
-};
 
 export default function Training() {
+  const navigate = useNavigate();
   const [trainings, setTrainings] = useState(null);
   const [loading, setLoading] = useState(true);
   const [globalFilter, setGlobalFilter] = useState("");
@@ -76,15 +46,21 @@ export default function Training() {
   ];
 
   useEffect(() => {
-    CustomerService.getCustomersMedium().then((data) => {
-      const parsedData = data.map((item) => ({
-        ...item,
-        start_date: new Date(item.start_date),
-        end_date: new Date(item.end_date),
-      }));
-      setTrainings(parsedData);
-      setLoading(false);
-    });
+ 
+
+    axios.get("http://localhost:8080/training/") // Replace with actual endpoint
+      .then(response => {
+        const parsedData = response.data.map((item) => ({
+          ...item,
+          trainer_name: item.trainer.username,
+          start_date: new Date(item.startDate),
+          end_date: new Date(item.endDate),
+        }));
+        console.log(parsedData);
+        setTrainings(parsedData);
+        setLoading(false);
+      })
+      .catch(error => console.error("Error fetching trainings:", error));
 
     const fetchUsers = async () => {
       try {
@@ -140,7 +116,9 @@ export default function Training() {
   };
 
   const viewDetails = (rowData) => {
-    console.log("Viewing details for training:", rowData);
+    // console.log("rowData",rowData.training_code);
+    const code = rowData.training_code;
+    navigate(`/participant/${code}`)
   };
 
   const onGlobalFilterChange = (e) => {
@@ -181,19 +159,68 @@ export default function Training() {
     </div>
   );
 
-  const handleDialogSubmit = () => {
-    console.log("New Training:", newTraining);
-    setVisible(false);
-    setNewTraining({
-      training_code: "",
-      trainer: null,
-      participants: [],
-      start_date: null,
-      end_date: null,
-      status: "completed",
-    });
-  };
+  const handleDialogSubmit = async () => {
+    setLoading(true);  // Set loading to true before the request
+  
+    try {
+      const user =  newTraining.participants;
 
+      const newTrainingData = {
+        training_code: newTraining.training_code,
+        trainer: newTraining.trainer,
+        participants: newTraining.participants.map(participantId => ({
+          user: participantId,
+          hackerRankScore: 0,  
+          assessmentScore: 0,
+          performance: 0,
+          communication: 0,
+          remarks: ""
+        })),
+        startDate: newTraining.start_date,
+        endDate: newTraining.end_date,
+        status: newTraining.status,
+      };
+  
+      // Post the new training to the backend
+      const response = await axios.post("http://localhost:8080/training/", newTrainingData);
+  
+      // Log success message
+      console.log("New Training added successfully:", response.data);
+  
+      // Fetch updated data after adding new training
+      axios.get("http://localhost:8080/training/") // Replace with actual endpoint
+        .then(response => {
+          const parsedData = response.data.map((item) => ({
+            ...item,
+            trainer_name: item.trainer?.username || 'N/A',
+            start_date: new Date(item.startDate),
+            end_date: new Date(item.endDate),
+          }));
+          setTrainings(parsedData);
+          setLoading(false);  // Stop loading after data is refreshed
+        })
+        .catch(error => {
+          console.error("Error fetching updated trainings:", error);
+          setLoading(false);  // Stop loading even if an error occurs
+        });
+  
+      // Hide the dialog and reset form state
+      setVisible(false);
+      setNewTraining({
+        training_code: "",
+        trainer: null,
+        participants: [],
+        start_date: null,
+        end_date: null,
+        status: "completed",
+      });
+  
+    } catch (error) {
+      console.error("Error adding new training:", error);
+      setLoading(false);  // Stop loading on error
+    }
+  };
+  
   const dialogFooter = (
     <div>
       <Button
@@ -227,7 +254,7 @@ export default function Training() {
         <DataTable
           value={trainings}
           paginator
-          rows={10}
+          rows={5}
           dataKey="training_code"
           filters={filters}
           filterDisplay="row"
@@ -335,7 +362,7 @@ export default function Training() {
         visible={visible}
         footer={dialogFooter}
         onHide={() => setVisible(false)}
-        style={{ width: "50%" }} // You can adjust the width as needed
+        style={{ width: "50%" }}
       >
         <div className="field mb-3">
           <label htmlFor="training_code">Training Code</label>
@@ -346,7 +373,7 @@ export default function Training() {
               setNewTraining({ ...newTraining, training_code: e.target.value })
             }
             placeholder="Enter Training Code"
-            className="w-full" // Make input full width
+            className="w-full"
           />
         </div>
 
@@ -360,23 +387,25 @@ export default function Training() {
               setNewTraining({ ...newTraining, trainer: e.value })
             }
             placeholder="Select a Trainer"
-            className="w-full" // Make dropdown full width
+            className="w-full"
           />
         </div>
 
         <div className="field mb-3">
-          <label htmlFor="participants">Select Participants</label>
-          <MultiSelect
+        <label htmlFor="participants">Select Participants</label>
+        <MultiSelect
             id="participants"
             value={newTraining.participants}
             options={participantOptions}
             onChange={(e) =>
-              setNewTraining({ ...newTraining, participants: e.value })
+                setNewTraining({ ...newTraining, participants: e.value })
             }
             placeholder="Select Participants"
-            className="w-full" // Make multi-select full width
-          />
-        </div>
+            className="w-full"
+            optionLabel="label" // This is to display the username
+            optionValue="value"  // This is to store the user ID
+        />
+    </div>
 
         <div className="field mb-3">
           <label htmlFor="start_date">Start Date</label>
@@ -389,7 +418,7 @@ export default function Training() {
             placeholder="Select Start Date"
             dateFormat="mm/dd/yy"
             showIcon
-            className="w-full" // Make calendar full width
+            className="w-full"
           />
         </div>
 
@@ -404,11 +433,11 @@ export default function Training() {
             placeholder="Select End Date"
             dateFormat="mm/dd/yy"
             showIcon
-            className="w-full" // Make calendar full width
+            className="w-full"
           />
         </div>
 
-        <div className="field ">
+        <div className="field">
           <label htmlFor="status">Status</label>
           <Dropdown
             id="status"
@@ -418,7 +447,7 @@ export default function Training() {
               setNewTraining({ ...newTraining, status: e.value })
             }
             placeholder="Select a Status"
-            className="w-full" // Make dropdown full width
+            className="w-full"
           />
         </div>
       </Dialog>

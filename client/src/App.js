@@ -5,6 +5,8 @@ import 'primeicons/primeicons.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import Training from './components/Training';
+import Participants from './components/Participants';
+import UserForm from './components/Register';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Dashboard/>} />
         <Route path='/training' element={<Training/>} />
+        <Route path='/register' element={<UserForm/>} />
+        <Route path='/participant/:training_code' element={<Participants/>} />
       </Routes>
     </Router>
     </PrimeReactProvider>
