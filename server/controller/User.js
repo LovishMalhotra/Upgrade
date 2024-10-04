@@ -15,6 +15,7 @@ router.post('/', async (req, res) => {
     }
 });
 
+
 // Get all users
 router.get('/', async (req, res) => {
     try {
@@ -67,5 +68,35 @@ router.delete('/:id', async (req, res) => {
         res.status(500).json({ message: 'Error deleting user', error });
     }
 });
+
+router.post('/login', async (req, res) => {
+    const { email, password } = req.body;
+
+    try {
+        // Find the user by email
+        const user = await User.findOne({ email });
+        if (!user) {
+            return res.status(401).json({ message: 'Invalid email or password.' });
+        }
+
+        // Compare the provided password with the stored password (not secure)
+        if (user.password !== password) {
+            return res.status(401).json({ message: 'Invalid email or password.' });
+        }
+
+        // Successful login, return user details (excluding password)
+        res.status(200).json({
+            message: 'Login successful!',
+            user: {
+                email: user.email,
+                role: user.role,
+            },
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'Server error' });
+    }
+});
+
 
 module.exports = router;

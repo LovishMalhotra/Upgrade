@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
 router.get('/', async (req, res) => {
   try {
       const trainings = await Training.find()
-          .populate('trainer', 'username') // Populate trainer details
+          .populate('trainer', 'username email') // Populate trainer details
           .populate({
               path: 'participants.user', // This should match the schema correctly
               select: 'username email designation' // Specify the fields you want to fetch

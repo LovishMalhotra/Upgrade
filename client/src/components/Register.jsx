@@ -16,6 +16,7 @@ const UserForm = () => {
     });
 
     const roles = [
+        { label: "Admin", value: "admin" },
         { label: "Trainer", value: "trainer" },
         { label: "User", value: "user" },
     ];

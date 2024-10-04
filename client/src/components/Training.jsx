@@ -11,10 +11,12 @@ import Navbar from "./Navbar";
 import axios from "axios";
 import { MultiSelect } from "primereact/multiselect";
 import { useNavigate } from "react-router-dom";
-
+import { useUser } from './UserContext'; 
 
 export default function Training() {
   const navigate = useNavigate();
+  const { userRole,userId } = useUser(); 
+  // console.log("id",userId);
   const [trainings, setTrainings] = useState(null);
   const [loading, setLoading] = useState(true);
   const [globalFilter, setGlobalFilter] = useState("");
@@ -46,7 +48,7 @@ export default function Training() {
   ];
 
   useEffect(() => {
- 
+    
 
     axios.get("http://localhost:8080/training/") // Replace with actual endpoint
       .then(response => {
@@ -56,8 +58,24 @@ export default function Training() {
           start_date: new Date(item.startDate),
           end_date: new Date(item.endDate),
         }));
+
         console.log(parsedData);
-        setTrainings(parsedData);
+        console.log(userId);
+        if (userRole === 'trainer') {
+          
+          const filteredTrainings = parsedData.filter(training => {
+            console.log("Trainer ID:", training.trainer._id); // Check trainer ID in each row
+            console.log("User ID:", String(userId));           // Check logged-in user ID
+            return training.trainer.email === String(userId);    // Compare both as strings
+          });
+          console.log("Filtered Trainings:", filteredTrainings); // Log the filtered results
+        
+          setTrainings(filteredTrainings);
+        }
+        else{
+          setTrainings(parsedData);
+        }
+        
         setLoading(false);
       })
       .catch(error => console.error("Error fetching trainings:", error));
@@ -148,13 +166,16 @@ export default function Training() {
               top: "50%",
             }}
           />
-        </span>
-        <Button
-          label="Add Training"
-          className="mx-3"
-          icon="pi pi-plus"
-          onClick={() => setVisible(true)}
-        />
+          </span>
+        {userRole === 'admin' && (
+            <Button
+                label="Add Training"
+                className="mx-3"
+                icon="pi pi-plus"
+                onClick={() => setVisible(true)} // Logic for showing the modal or form
+            />
+        )}
+        
       </div>
     </div>
   );

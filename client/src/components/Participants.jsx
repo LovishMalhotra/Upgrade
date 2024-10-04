@@ -7,8 +7,10 @@ import { Dialog } from "primereact/dialog";
 import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import axios from "axios";
+import { useUser } from './UserContext'; 
 
 export default function Participants() {
+  const { userRole } = useUser(); 
   const { training_code } = useParams();
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -308,7 +310,8 @@ export default function Participants() {
             body={remarksBodyTemplate}
             style={{ minWidth: "10rem" }}
           />
-          <Column
+          {userRole === 'trainer' && (
+            <Column
             header="Edit"
             body={(rowData) => (
               <Button
@@ -320,6 +323,8 @@ export default function Participants() {
             )}
             style={{ minWidth: "10rem" }}
           />
+        )}
+          
         </DataTable>
       </div>
 

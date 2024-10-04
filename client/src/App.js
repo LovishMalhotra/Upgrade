@@ -7,6 +7,8 @@ import Dashboard from './components/Dashboard';
 import Training from './components/Training';
 import Participants from './components/Participants';
 import UserForm from './components/Register';
+import Login from './components/Login';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path='/training' element={<Training/>} />
         <Route path='/register' element={<UserForm/>} />
         <Route path='/participant/:training_code' element={<Participants/>} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
     </Router>
     </PrimeReactProvider>

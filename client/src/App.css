@@ -99,3 +99,42 @@ a{
 .p-field {
   margin-bottom: 1.5rem;
 }
+
+/* TemplateDemo.css */
+
+/* Container for the Menubar */
+.custom-menubar {
+  background-color: #f8f9fa; /* Light background color for the Menubar */
+  border: 1px solid #e0e0e0; /* Subtle border */
+}
+
+/* Avatar container */
+.avatar-container {
+  position: relative; /* Position for tooltip alignment */
+}
+
+/* Tooltip styles */
+.p-tooltip {
+  background-color: #ffffff; /* Dark background for tooltip */
+  color: #0e0d0d; /* White text color for better contrast */
+  font-size: 14px; /* Font size */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 0.5rem; /* Padding for tooltip */
+}
+
+/* Adjustments for the Avatar */
+.p-avatar {
+  transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+/* Scale effect on hover */
+.avatar-container:hover .p-avatar {
+  transform: scale(1.1); /* Slightly scale up the avatar on hover */
+}
+
+
+
+.p-menubar .p-menuitem-link:hover {
+  background-color: #e9ecef; /* Background color on hover */
+}
+
