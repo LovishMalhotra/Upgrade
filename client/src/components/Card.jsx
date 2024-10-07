@@ -12,39 +12,50 @@ export function Card() {
   // Dummy data to simulate API response
   const dummyData = [
     {
+      skillName: 'UI/UX',
+      skillImage: 'https://img-c.udemycdn.com/course/750x422/531148_b0a2_4.jpg',
+      techStack: [
+        { name: 'Bootstrap' },
+        { name: 'Tailwind CSS' },
+        { name: 'Figma' },
+      ],
+    },
+    {
       skillName: 'Full Stack',
-      skillImage: 'https://via.placeholder.com/300x200?text=JavaScript',
+      skillImage: 'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png',
       techStack: [
         { name: 'React' },
         { name: 'Node.js' },
         { name: 'Express' },
       ],
     },
-    {
-      skillName: 'Data Science',
-      skillImage: 'https://via.placeholder.com/300x200?text=Python',
-      techStack: [
-        { name: 'Python' },
-        { name: 'Databricks' },
-        { name: 'Machine Learning' },
-      ],
-    },
+    
     {
       skillName: 'Data Engineering',
-      skillImage: 'https://via.placeholder.com/300x200?text=Java',
+      skillImage: 'https://www.kdnuggets.com/wp-content/uploads/c_beginner_guide_data_engineering_1.png',
       techStack: [
         { name: 'Azure Data Factory' },
         { name: 'SQL' },
         { name: 'Web Scraping' },
       ],
     },
+   
     {
-      skillName: 'UI/UX',
-      skillImage: 'https://via.placeholder.com/300x200?text=CSS',
+      skillName: 'Software Testing',
+      skillImage: 'https://www.testingmind.com/wp-content/uploads/2022/11/623b0aa81f62670d19d49d2f_What-are-the-11-ways-your-company-can-do-software-testing-more-efficiently_-2-100-1.jpg',
       techStack: [
-        { name: 'Bootstrap' },
-        { name: 'Tailwind CSS' },
-        { name: 'Figma' },
+        { name: 'Java' },
+        { name: 'Playwright' },
+        { name: 'Appium' },
+      ],
+    },
+    {
+      skillName: 'Data Science',
+      skillImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2RzGeikAnS5cPgbYPavFrQmzbb6FVoTjWPw&s',
+      techStack: [
+        { name: 'Python' },
+        { name: 'Databricks' },
+        { name: 'Machine Learning' },
       ],
     },
   ];
@@ -93,12 +104,12 @@ export function Card() {
 
   const employeeTemplate = (skill) => {
     return (
-      <div className="card border-1 m-4 surface-border border-round text-center shadow-2" style={{ width: "90%" }}>
+      <div className="card border-1 m-4 surface-border border-round text-center shadow-2" style={{ width: "80%" }}>
         <div className="mb-3">
           <Avatar
             image={skill.skillImage}
             size="xlarge"
-            style={{ width: "300px", height: "200px", margin: "5px" }}
+            style={{ width: "250px", height: "150px", margin: "5px" }}
           />
         </div>
         <div>
@@ -115,7 +126,7 @@ export function Card() {
   };
 
   return (
-    <div className="mt-5 mx-5">
+    <div className="mt-5 mx-10">
       <Carousel
         value={skills}
         numScroll={1}

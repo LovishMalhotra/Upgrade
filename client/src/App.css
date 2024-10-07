@@ -12,16 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-html, body {
-  height: 100%;
-  margin: 0; /* Remove default margins */
-}
+
 body {
   background: linear-gradient(to bottom right, #00bfff, #ff1493);
   font-family: Arial, sans-serif;
   color: #333;
-  display: flex;
-  flex-direction: column; /* Allows the content to stack */
+  min-height: 100vh; 
+  margin: 0; 
+  overflow-x: hidden; 
 }
 .App-header {
   background-color: #282c34;
@@ -138,3 +136,11 @@ a{
   background-color: #e9ecef; /* Background color on hover */
 }
 
+.mx-10{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+svg.p-icon {
+  color: white;
+}
