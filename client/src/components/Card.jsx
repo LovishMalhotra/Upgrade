@@ -29,7 +29,6 @@ export function Card() {
         { name: 'Express' },
       ],
     },
-    
     {
       skillName: 'Data Engineering',
       skillImage: 'https://www.kdnuggets.com/wp-content/uploads/c_beginner_guide_data_engineering_1.png',
@@ -39,7 +38,6 @@ export function Card() {
         { name: 'Web Scraping' },
       ],
     },
-   
     {
       skillName: 'Software Testing',
       skillImage: 'https://www.testingmind.com/wp-content/uploads/2022/11/623b0aa81f62670d19d49d2f_What-are-the-11-ways-your-company-can-do-software-testing-more-efficiently_-2-100-1.jpg',
@@ -79,13 +77,13 @@ export function Card() {
         <div className="popup-content" onClick={(e) => e.stopPropagation()}>
           <div className="d-flex justify-content-between mb-3">
             <h3>Tech Stack</h3>
-            <Button onClick={onClose} className="p-button-danger " icon="pi pi-times" />
+            <Button onClick={onClose} className="p-button-danger" icon="pi pi-times" />
           </div>
-          <ul className='d-flex flex-wrap justify-content-around  pt-3 '>
+          <ul className='d-flex flex-wrap justify-content-around pt-3'>
             {techStack && techStack.length > 0 ? (
               techStack.map((tech, index) => (
                 <span key={index}>
-                  <Button label={tech.name} className='p-button-rounded'/>
+                  <Button label={tech.name} className='p-button-rounded' />
                 </span>
               ))
             ) : (
@@ -114,11 +112,11 @@ export function Card() {
         </div>
         <div>
           <h4 className="mb-2 text-xl font-bold">{skill.skillName}</h4>
-          <Tag 
-            value={`Tech stack`} 
-            className="mb-3" 
-            style={{ cursor: "pointer" }} 
-            onClick={() => handleTagClick(skill.techStack)} 
+          <Tag
+            value={`Tech stack`}
+            className="mb-3"
+            style={{ cursor: "pointer" }}
+            onClick={() => handleTagClick(skill.techStack)}
           />
         </div>
       </div>

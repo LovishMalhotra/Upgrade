@@ -141,6 +141,10 @@ a{
   margin-right: 10%;
 }
 
-svg.p-icon {
-  color: white;
+.p-carousel-prev{
+  color:#ffffff;
+}
+
+.p-carousel-next{
+  color:#ffffff;
 }
