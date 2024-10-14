@@ -1,135 +1,175 @@
 import React, { useState, useEffect } from "react";
 import { Chart } from "primereact/chart";
 import "chart.js/auto";
+import axios from 'axios';
 
 const StackGraph = () => {
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
 
   useEffect(() => {
-      const documentStyle = getComputedStyle(document.documentElement);
-      const textColor = documentStyle.getPropertyValue('--text-color');
-      const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
-      const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
-      const data = {
-          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("http://localhost:8080/training/trainings/score-ranges");
+        const scoreRanges = response.data;
+
+        const documentStyle = getComputedStyle(document.documentElement);
+        const textColor = documentStyle.getPropertyValue('--text-color');
+        const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
+        const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
+
+
+        // Prepare chart data based on the API response
+        const data = {
+          labels: ['HackerRank Score', 'Assessment Score', 'Performance', 'Communication'],
           datasets: [
-              {
-                  type: 'bar',
-                  label: 'Dataset 1',
-                  backgroundColor: documentStyle.getPropertyValue('--blue-500'),
-                  data: [50, 25, 12, 48, 90, 76, 42]
-              },
-              {
-                  type: 'bar',
-                  label: 'Dataset 2',
-                  backgroundColor: documentStyle.getPropertyValue('--green-500'),
-                  data: [21, 84, 24, 75, 37, 65, 34]
-              },
-              {
-                  type: 'bar',
-                  label: 'Dataset 3',
-                  backgroundColor: documentStyle.getPropertyValue('--yellow-500'),
-                  data: [41, 52, 24, 74, 23, 21, 32]
-              }
+            {
+              label: 'Scores 0-4',
+              backgroundColor: documentStyle.getPropertyValue('--blue-500'),
+              data: [
+                scoreRanges.hackerRankScore['0-4'],
+                scoreRanges.assessmentScore['0-4'],
+                scoreRanges.performance['0-4'],
+                scoreRanges.communication['0-4']
+              ]
+            },
+            {
+              label: 'Scores 4-7',
+              backgroundColor: documentStyle.getPropertyValue('--green-500'),
+              data: [
+                scoreRanges.hackerRankScore['4-7'],
+                scoreRanges.assessmentScore['4-7'],
+                scoreRanges.performance['4-7'],
+                scoreRanges.communication['4-7']
+              ]
+            },
+            {
+              label: 'Scores 7-10',
+              backgroundColor: documentStyle.getPropertyValue('--yellow-500'),
+              data: [
+                scoreRanges.hackerRankScore['7-10'],
+                scoreRanges.assessmentScore['7-10'],
+                scoreRanges.performance['7-10'],
+                scoreRanges.communication['7-10']
+              ]
+            }
           ]
-      };
-      const options = {
+        };
+
+        
+        const options = {
           maintainAspectRatio: false,
           aspectRatio: 0.8,
           plugins: {
-              tooltips: {
-                  mode: 'index',
-                  intersect: false
-              },
-              legend: {
-                  labels: {
-                      color: textColor
-                  }
+            tooltips: {
+              mode: 'index',
+              intersect: false
+            },
+            legend: {
+              labels: {
+                color: textColor
               }
+            }
           },
           scales: {
-              x: {
-                  stacked: true,
-                  ticks: {
-                      color: textColorSecondary
-                  },
-                  grid: {
-                      color: surfaceBorder
-                  }
+            x: {
+              stacked: true,
+              ticks: {
+                color: textColorSecondary
               },
-              y: {
-                  stacked: true,
-                  ticks: {
-                      color: textColorSecondary
-                  },
-                  grid: {
-                      color: surfaceBorder
-                  }
+              grid: {
+                color: surfaceBorder
               }
+            },
+            y: {
+              stacked: true,
+              ticks: {
+                color: textColorSecondary
+              },
+              grid: {
+                color: surfaceBorder
+              }
+            }
           }
-      };
+        };
 
-      setChartData(data);
-      setChartOptions(options);
+        setChartData(data);
+        setChartOptions(options);
+      } catch (error) {
+        console.error("Error fetching score ranges:", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   return (
-      <div className="card" >
-          <Chart type="bar" data={chartData} options={chartOptions} />
-      </div>
-  )
-}
+    <div className="card">
+      <Chart type="bar" data={chartData} options={chartOptions} />
+    </div>
+  );
+};
+
+
 
 const PieChart = () => {
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
 
   useEffect(() => {
-    const documentStyle = getComputedStyle(document.documentElement);
+    // Fetch training session status counts from the backend
+    axios.get('http://localhost:8080/training/trainings/status')
+      .then(response => {
+        const { completed, pending, ongoing } = response.data;
+        
+        const data = {
+          labels: ['Completed', 'Pending', 'Ongoing'],
+          datasets: [
+            {
+              data: [completed, pending, ongoing],
+              backgroundColor: [
+                getComputedStyle(document.documentElement).getPropertyValue('--green-500'),
+                getComputedStyle(document.documentElement).getPropertyValue('--yellow-500'),
+                getComputedStyle(document.documentElement).getPropertyValue('--blue-500'),
+              ],
+              hoverBackgroundColor: [
+                getComputedStyle(document.documentElement).getPropertyValue('--green-400'),
+                getComputedStyle(document.documentElement).getPropertyValue('--yellow-400'),
+                getComputedStyle(document.documentElement).getPropertyValue('--blue-400'),
+              ],
+            }
+          ]
+        };
 
-    const data = {
-      labels: ["Active", "Absent", "Leave"],
-      datasets: [
-        {
-          data: [300, 50, 100],
-          backgroundColor: [
-            documentStyle.getPropertyValue("--blue-500"),
-            documentStyle.getPropertyValue("--yellow-500"),
-            documentStyle.getPropertyValue("--green-500"),
-          ],
-          hoverBackgroundColor: [
-            documentStyle.getPropertyValue("--blue-400"),
-            documentStyle.getPropertyValue("--yellow-400"),
-            documentStyle.getPropertyValue("--green-400"),
-          ],
-        },
-      ],
-    };
+        const options = {
+          cutout: '60%',
+          plugins: {
+            title: {
+              display: true,
+              text: 'Training Sessions Status',
+              font: {
+                size: 20,
+                weight: 'bold',
+              }
+            }
+          }
+        };
 
-    const options = {
-      cutout: "60%",
-      plugins: {
-        title: {
-          display: true,
-          text: "Today's Report",
-          font: {
-            size: 28,
-            weight: 'bold',
-          },
-        },
-      },
-    };
-
-    setChartData(data);
-    setChartOptions(options);
+        setChartData(data);
+        setChartOptions(options);
+      })
+      .catch(error => {
+        console.error('Error fetching training statuses:', error);
+      });
   }, []);
 
   return (
-    <div className="card" >
+    <div className="card">
       <Chart type="doughnut" data={chartData} options={chartOptions} />
     </div>
   );
 };
+
+
 
 export { StackGraph, PieChart };

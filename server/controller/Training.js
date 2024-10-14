@@ -100,5 +100,56 @@ router.get('/:training_code', async (req, res) => {
   }
 });
 
+router.get('/trainings/status', async (req, res) => {
+  try {
+    const trainings = await Training.find();
+    
+    if (!trainings.length) {
+      return res.status(404).json({ message: "No training sessions found" });
+    }
+
+    const statusCounts = { completed: 0, pending: 0, ongoing: 0 };
+    trainings.forEach(training => {
+      if (statusCounts[training.status] !== undefined) {
+        statusCounts[training.status] += 1;
+      }
+    });
+
+    res.json(statusCounts);
+  } catch (error) {
+    res.status(500).send('Error fetching training sessions');
+  }
+});
+
+router.get('/trainings/score-ranges', async (req, res) => {
+  try {
+    const trainings = await Training.find(); // Fetch all training sessions
+
+    // Initialize the score range counts for each category
+    const scoreRanges = {
+      hackerRankScore: { '0-4': 0, '4-7': 0, '7-10': 0 },
+      assessmentScore: { '0-4': 0, '4-7': 0, '7-10': 0 },
+      performance: { '0-4': 0, '4-7': 0, '7-10': 0 },
+      communication: { '0-4': 0, '4-7': 0, '7-10': 0 },
+    };
+
+    // Loop through trainings and participants to count scores in ranges
+    trainings.forEach(training => {
+      training.participants.forEach(participant => {
+        ['hackerRankScore', 'assessmentScore', 'performance', 'communication'].forEach(scoreType => {
+          const score = participant[scoreType];
+          if (score <= 4) scoreRanges[scoreType]['0-4'] += 1;
+          else if (score <= 7) scoreRanges[scoreType]['4-7'] += 1;
+          else scoreRanges[scoreType]['7-10'] += 1;
+        });
+      });
+    });
+
+    res.json(scoreRanges); // Return the calculated score ranges
+  } catch (error) {
+    res.status(500).send('Error fetching score ranges');
+  }
+});
+
 
 module.exports = router;

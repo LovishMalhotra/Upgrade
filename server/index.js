@@ -23,7 +23,6 @@ app.use(cors());
 app.use('/users', userRoutes);
 app.use('/training', trainingRoutes);
 
-
 //Database connection
 main().catch((err) => console.log(`Unable to connect ${err}`));
 
