@@ -1,471 +1,488 @@
 training_code,trainer_username,participant_username,participant_hackerRankScore,participant_performance,participant_assessmentScore,participant_communication,Max_Marks[10]
-UI-099,Thomas Matthews,Eric Alvarado,10,7,8,6,7.75
-UI-099,Thomas Matthews,Misty Hahn,7,5,7,9,7.0
-UI-099,Thomas Matthews,Maurice Hicks,9,6,5,7,6.75
-UI-099,Thomas Matthews,Billy Herman,6,2,7,1,4.0
-UI-099,Thomas Matthews,Sheri Chaney,2,7,6,1,4.0
-UI-093,Christine Marshall,William Horton,8,8,7,3,6.5
-UI-093,Christine Marshall,Jade Wood,8,2,6,9,6.25
-UI-093,Christine Marshall,Charles Dean,9,9,2,4,6.0
-UI-093,Christine Marshall,David Simmons,5,8,7,3,5.75
-UI-093,Christine Marshall,Sean Gonzales,5,1,8,8,5.5
-UI-087,Mark Jenkins,Joseph Hahn,9,7,8,8,8.0
-UI-087,Mark Jenkins,Max Green,8,6,10,7,7.75
-UI-087,Mark Jenkins,Connie Burke,9,9,5,4,6.75
-UI-087,Mark Jenkins,Jennifer Johnston,1,8,6,10,6.25
-UI-087,Mark Jenkins,Carl Cross,5,8,7,2,5.5
-UI-079,Steve Lopez,Bruce Cuevas,9,9,4,8,7.5
-UI-079,Steve Lopez,Adam Vasquez,10,3,4,10,6.75
-UI-079,Steve Lopez,Jennifer Wilcox,4,10,5,7,6.5
-UI-079,Steve Lopez,Jared Lee,10,9,3,4,6.5
-UI-079,Steve Lopez,Cameron Ellis,3,6,9,8,6.5
-UI-077,Kelly Rodriguez Jr.,Mrs. Melissa Anderson,8,10,6,9,8.25
-UI-077,Kelly Rodriguez Jr.,Oscar Gibson,8,7,7,9,7.75
-UI-077,Kelly Rodriguez Jr.,Whitney Hicks,6,9,5,8,7.0
-UI-077,Kelly Rodriguez Jr.,Lisa Curry,7,8,9,1,6.25
-UI-077,Kelly Rodriguez Jr.,Alexis Reynolds,9,9,2,4,6.0
-UI-076,April Brown,Michael Dean,5,8,8,10,7.75
-UI-076,April Brown,Hannah Cunningham MD,9,7,5,3,6.0
-UI-076,April Brown,John Lewis,9,3,3,9,6.0
-UI-076,April Brown,Sarah Rogers,3,5,8,7,5.75
-UI-076,April Brown,Brittany Martin,9,1,4,8,5.5
-UI-074,Kevin Stewart,Sean Gonzales,7,6,9,10,8.0
-UI-074,Kevin Stewart,Mr. Frank Lewis,7,7,7,9,7.5
-UI-074,Kevin Stewart,Joseph Galvan,4,8,7,10,7.25
-UI-074,Kevin Stewart,Susan Lopez,9,6,8,4,6.75
-UI-074,Kevin Stewart,Aaron Black,5,7,4,8,6.0
-UI-065,Steven Estes,Matthew Robinson,7,10,9,5,7.75
-UI-065,Steven Estes,Vanessa Garcia,7,5,7,10,7.25
-UI-065,Steven Estes,Carol House,4,9,9,6,7.0
-UI-065,Steven Estes,Nathan Thompson,3,7,7,6,5.75
-UI-065,Steven Estes,Christopher Hayes,4,5,9,4,5.5
-UI-058,David Flores,Bobby Steele,4,8,4,8,6.0
-UI-058,David Flores,Cameron Thompson,8,8,5,2,5.75
-UI-058,David Flores,Albert Tran,9,4,9,0,5.5
-UI-058,David Flores,Justin Johnson,1,9,8,1,4.75
-UI-058,David Flores,Joshua Torres,6,6,6,1,4.75
-UI-055,Charles Smith,Alexis Watson,10,8,3,10,7.75
-UI-055,Charles Smith,Maurice Hicks,8,7,4,8,6.75
-UI-055,Charles Smith,Joseph Gregory,8,10,3,4,6.25
-UI-055,Charles Smith,Jonathan Carroll,7,5,8,3,5.75
-UI-055,Charles Smith,Jason Espinoza,5,2,8,6,5.25
-UI-050,Edward Smith,Joseph Hahn,10,10,10,8,9.5
-UI-050,Edward Smith,Michael Bolton,8,7,7,7,7.25
-UI-050,Edward Smith,Alexis Watson,8,4,9,8,7.25
-UI-050,Edward Smith,Brandon Campbell,6,6,4,10,6.5
-UI-050,Edward Smith,Sandra Collins,9,6,1,8,6.0
-UI-049,Brandy Bullock,Michael King,8,9,8,7,8.0
-UI-049,Brandy Bullock,Anna Decker,9,7,6,9,7.75
-UI-049,Brandy Bullock,Scott Williams,8,8,5,8,7.25
-UI-049,Brandy Bullock,Matthew Wagner,5,10,5,8,7.0
-UI-049,Brandy Bullock,David Simmons,1,10,9,8,7.0
-UI-039,Leslie Holland,Mike Nunez,3,7,10,7,6.75
-UI-039,Leslie Holland,Jennifer Odonnell,10,1,7,9,6.75
-UI-039,Leslie Holland,Timothy Fuentes,7,7,3,9,6.5
-UI-039,Leslie Holland,Andrea Gutierrez,8,3,9,4,6.0
-UI-039,Leslie Holland,Bobby Steele,6,7,5,5,5.75
-UI-036,Jeremy Medina,Randall Rich,2,10,8,2,5.5
-UI-036,Jeremy Medina,Samantha Horton,9,7,1,5,5.5
-UI-036,Jeremy Medina,Brandon Thomas,6,4,0,9,4.75
-UI-036,Jeremy Medina,Jason King,7,2,2,8,4.75
-UI-036,Jeremy Medina,Keith Herrera,2,5,3,8,4.5
-UI-024,Cathy Francis,James Gordon,8,10,9,8,8.75
-UI-024,Cathy Francis,Michael Walters,9,9,8,9,8.75
-UI-024,Cathy Francis,Sara Scott,8,6,9,10,8.25
-UI-024,Cathy Francis,Daniel Hernandez,9,9,3,8,7.25
-UI-024,Cathy Francis,Justin Murphy,7,10,7,1,6.25
-UI-015,Jeremy Medina,Christina Reeves,8,10,9,9,9.0
-UI-015,Jeremy Medina,James Wells,9,9,0,9,6.75
-UI-015,Jeremy Medina,Patricia Johnson,4,8,9,3,6.0
-UI-015,Jeremy Medina,Russell Garcia,1,10,7,5,5.75
-UI-015,Jeremy Medina,Robert Edwards,3,8,5,7,5.75
-UI-010,Renee Smith,Vincent Johnson,7,5,8,5,6.25
-UI-010,Renee Smith,Paul Mitchell,2,5,10,6,5.75
-UI-010,Renee Smith,Julie Medina,4,6,2,10,5.5
-UI-010,Renee Smith,Vanessa Charles,4,7,3,8,5.5
-UI-010,Renee Smith,Rachel Wright,1,9,1,9,5.0
-UI-005,Lori Romero,Madison Dixon,5,8,7,7,6.75
-UI-005,Lori Romero,Christopher Barnes,2,4,6,10,5.5
-UI-005,Lori Romero,Brandon Thomas,4,5,6,6,5.25
-UI-005,Lori Romero,Brittany Fitzgerald,1,6,10,1,4.5
-UI-005,Lori Romero,Katrina Fisher,3,4,1,9,4.25
-ST-094,Debra Martinez,Stephen Powell,8,2,9,7,6.5
-ST-094,Debra Martinez,Shawn Dunn,7,7,2,7,5.75
-ST-094,Debra Martinez,Mr. Timothy Miller Jr.,7,6,6,4,5.75
-ST-094,Debra Martinez,Michael Williamson,7,8,0,7,5.5
-ST-094,Debra Martinez,Timothy Clark,8,0,9,4,5.25
-ST-091,David Flores,Misty Hahn,7,8,9,10,8.5
-ST-091,David Flores,Jeffrey Benson,9,6,7,8,7.5
-ST-091,David Flores,Paula Henry,6,5,8,10,7.25
-ST-091,David Flores,Chelsea Bailey,7,8,4,10,7.25
-ST-091,David Flores,Jeffrey Kramer,9,6,6,5,6.5
-ST-090,Charles Smith,Mark Brown,9,5,7,9,7.5
-ST-090,Charles Smith,Christie Wells,8,9,6,1,6.0
-ST-090,Charles Smith,Jacob Cantu,4,1,8,9,5.5
-ST-090,Charles Smith,Jessica Perez,5,4,9,2,5.0
-ST-090,Charles Smith,John Jones,2,5,6,7,5.0
-ST-085,Jesus Carter,Jeffery Collins,6,10,10,9,8.75
-ST-085,Jesus Carter,Sonya Lane,8,2,9,9,7.0
-ST-085,Jesus Carter,Christopher Castillo DDS,5,7,7,7,6.5
-ST-085,Jesus Carter,Laura Cole,0,5,9,9,5.75
-ST-085,Jesus Carter,Ronald Valdez,7,7,5,1,5.0
-ST-081,Reginald Smith,Kevin Farmer,4,9,6,6,6.25
-ST-081,Reginald Smith,Ryan Jones,5,0,8,9,5.5
-ST-081,Reginald Smith,Shane Li,3,7,4,8,5.5
-ST-081,Reginald Smith,Andrea Morales,5,3,7,6,5.25
-ST-081,Reginald Smith,Joseph Olsen,5,4,4,7,5.0
-ST-072,Paul Andersen,Timothy Hernandez,9,6,9,7,7.75
-ST-072,Paul Andersen,Richard Hayes,10,7,10,1,7.0
-ST-072,Paul Andersen,Robert Edwards,9,5,7,7,7.0
-ST-072,Paul Andersen,Stephanie Perez,7,4,9,7,6.75
-ST-072,Paul Andersen,Jeffrey Collins,4,9,10,4,6.75
-ST-070,Elizabeth Blake MD,Michael Kramer,6,9,8,10,8.25
-ST-070,Elizabeth Blake MD,Ryan Stevens,9,9,6,9,8.25
-ST-070,Elizabeth Blake MD,Kelly Thompson DDS,8,10,3,9,7.5
-ST-070,Elizabeth Blake MD,John Sanchez,5,5,10,8,7.0
-ST-070,Elizabeth Blake MD,Jenna Thomas,4,7,9,5,6.25
-ST-059,Brooke Costa,Allen Brown,5,10,8,0,5.75
-ST-052,James Taylor,Jennifer Johnston,10,7,10,7,8.5
-ST-052,James Taylor,Daniel Tapia,7,10,7,8,8.0
-ST-052,James Taylor,Calvin Newman,9,9,6,8,8.0
-ST-052,James Taylor,Marie Rodriguez PhD,5,8,9,7,7.25
-ST-052,James Taylor,Kathleen Fuentes,7,8,5,9,7.25
-ST-046,Renee Smith,Kelly Mcdowell,9,7,9,8,8.25
-ST-046,Renee Smith,Larry Lynn,10,6,7,9,8.0
-ST-046,Renee Smith,Heidi Price,9,7,6,8,7.5
-ST-046,Renee Smith,Kelli Bennett,6,8,7,8,7.25
-ST-046,Renee Smith,William Reyes,9,6,7,6,7.0
-ST-043,Ms. Kara Smith,Sarah Smith,8,8,1,7,6.0
-ST-043,Ms. Kara Smith,Shirley Miles,7,7,4,3,5.25
-ST-043,Ms. Kara Smith,Brandon Mcknight,7,2,3,6,4.5
-ST-043,Ms. Kara Smith,Claire Bradley,3,6,5,4,4.5
-ST-043,Ms. Kara Smith,Nathan Hernandez,0,3,6,7,4.0
-ST-038,Joan Armstrong,Mrs. Melissa Anderson,10,9,6,2,6.75
-ST-038,Joan Armstrong,Michael Mack,10,4,3,9,6.5
-ST-038,Joan Armstrong,Heather Watson,8,8,2,7,6.25
-ST-038,Joan Armstrong,Wendy Thompson,6,5,8,3,5.5
-ST-038,Joan Armstrong,Jason Myers,2,6,5,6,4.75
-ST-031,David Flores,Adam Vasquez,4,5,9,9,6.75
-ST-031,David Flores,Lori Taylor,5,8,5,9,6.75
-ST-031,David Flores,Ashley Chandler,7,6,5,8,6.5
-ST-031,David Flores,Kelly Chandler,9,10,2,4,6.25
-ST-031,David Flores,Nicole Brandt,3,8,9,3,5.75
-ST-027,Kevin Holt,Alexander Ward,10,9,7,6,8.0
-ST-027,Kevin Holt,Aaron Martinez,10,7,7,7,7.75
-ST-027,Kevin Holt,Victoria Kemp,10,5,7,7,7.25
-ST-027,Kevin Holt,Geoffrey Mullen,10,3,6,9,7.0
-ST-027,Kevin Holt,Michelle Soto,4,7,7,8,6.5
-ST-023,Leslie Holland,Matthew Boyd,6,9,3,9,6.75
-ST-023,Leslie Holland,Robert Olson,10,1,10,5,6.5
-ST-023,Leslie Holland,Jonathan Sanchez,7,9,3,6,6.25
-ST-023,Leslie Holland,Laura Cole,5,7,4,7,5.75
-ST-023,Leslie Holland,Brian Zamora,1,9,5,7,5.5
-ST-022,Cassandra Ortega,Seth Coffey PhD,5,10,8,7,7.5
-ST-022,Cassandra Ortega,Darin Erickson,7,9,7,4,6.75
-ST-022,Cassandra Ortega,Maria Myers,9,5,8,3,6.25
-ST-022,Cassandra Ortega,Tyler Miranda,7,9,7,2,6.25
-ST-022,Cassandra Ortega,Peter Moyer,6,2,7,9,6.0
-ST-014,Alyssa Gibson,Wesley Williams,9,9,4,7,7.25
-ST-014,Alyssa Gibson,Matthew Campbell,10,9,6,3,7.0
-ST-014,Alyssa Gibson,George Graves,9,8,6,5,7.0
-ST-014,Alyssa Gibson,Michele Walker,8,7,10,3,7.0
-ST-014,Alyssa Gibson,Penny Gomez,9,7,5,6,6.75
-ST-013,Peter Rowland,Whitney Arnold,9,6,5,10,7.5
-ST-013,Peter Rowland,James Howell DDS,10,3,8,7,7.0
-ST-013,Peter Rowland,Jennifer Valdez,9,7,3,4,5.75
-ST-013,Peter Rowland,David Haynes,2,7,7,7,5.75
-ST-013,Peter Rowland,Nicole Brandt,3,8,8,3,5.5
-ST-008,Marc Martinez,Stephen Smith,5,8,10,8,7.75
-ST-008,Marc Martinez,Hannah Wright,2,8,10,10,7.5
-ST-008,Marc Martinez,Alexis Watson,5,7,7,8,6.75
-ST-008,Marc Martinez,Michelle Johnson,8,9,3,6,6.5
-ST-008,Marc Martinez,Bradley Jimenez,5,6,9,4,6.0
-ST-007,Teresa Bentley,Christopher Barnes,8,9,2,10,7.25
-ST-007,Teresa Bentley,Jessica Fisher,4,9,4,2,4.75
-ST-004,George Hill,Jessica Perez,6,10,5,7,7.0
-ST-004,George Hill,William Reyes,9,10,2,7,7.0
-ST-004,George Hill,Courtney Massey,5,10,4,8,6.75
-ST-004,George Hill,Teresa Myers,6,3,10,6,6.25
-ST-004,George Hill,Laura Daniels,3,9,8,5,6.25
-ST-003,Elizabeth Green,Shirley Miles,10,8,5,5,7.0
-ST-003,Elizabeth Green,Darrell Parker,10,4,5,9,7.0
-ST-003,Elizabeth Green,Nicole Deleon,7,8,6,6,6.75
-ST-003,Elizabeth Green,Manuel Lam,7,4,8,6,6.25
-ST-003,Elizabeth Green,Ronald Brown,5,8,3,7,5.75
-ST-002,Brooke Costa,Richard Hansen,1,8,10,9,7.0
-ST-002,Brooke Costa,Joshua Grant,9,9,8,1,6.75
-ST-002,Brooke Costa,Edward Wood,7,4,4,3,4.5
-FS-100,Nicholas Lewis,George Nolan,9,8,6,5,7.0
-FS-100,Nicholas Lewis,Nancy Huff,9,5,6,6,6.5
-FS-100,Nicholas Lewis,Vanessa Charles,0,6,9,10,6.25
-FS-100,Nicholas Lewis,Donald Sweeney,1,10,8,6,6.25
-FS-100,Nicholas Lewis,Jeffrey Shea,8,6,4,6,6.0
-FS-095,Emily Mckay,Amanda Jackson,8,8,8,8,8.0
-FS-095,Emily Mckay,Ashley Oneill,9,7,7,7,7.5
-FS-095,Emily Mckay,James Rodriguez,8,6,9,7,7.5
-FS-095,Emily Mckay,Jane Cooper,8,5,8,8,7.25
-FS-095,Emily Mckay,Justin Murphy,9,0,10,7,6.5
-FS-088,Thomas Howe,Michael Jacobson,2,7,9,7,6.25
-FS-088,Thomas Howe,Michael Conway,8,9,6,2,6.25
-FS-088,Thomas Howe,Ronald Ellis,3,8,5,7,5.75
-FS-088,Thomas Howe,Bonnie Lewis,8,6,0,4,4.5
-FS-088,Thomas Howe,Amanda Cole,7,6,2,3,4.5
-FS-078,George Benjamin,Timothy Lewis,8,9,9,3,7.25
-FS-078,George Benjamin,Ana Patton,7,8,7,4,6.5
-FS-078,George Benjamin,Bethany Ellis,4,4,8,8,6.0
-FS-078,George Benjamin,Amy Thomas,9,3,2,9,5.75
-FS-078,George Benjamin,Jesus Livingston,4,6,3,8,5.25
-FS-071,Mark Jenkins,Laura Jones,2,0,3,7,3.0
-FS-068,Cassandra Fuentes,Sandra Collins,4,9,9,5,6.75
-FS-068,Cassandra Fuentes,Jeffrey Kramer,9,8,3,5,6.25
-FS-068,Cassandra Fuentes,Brittney Sanders,8,5,6,4,5.75
-FS-068,Cassandra Fuentes,Julie Medina,9,5,4,4,5.5
-FS-068,Cassandra Fuentes,Justin Johnson,9,2,6,4,5.25
-FS-067,Ronald Tanner,Miss Lauren Miranda,7,6,9,2,6.0
-FS-067,Ronald Tanner,Keith Hicks,2,10,9,2,5.75
-FS-067,Ronald Tanner,Mrs. Kelly Williams,5,7,5,6,5.75
-FS-067,Ronald Tanner,Brittany Fitzgerald,6,9,3,4,5.5
-FS-067,Ronald Tanner,Nicole Wilson,1,7,6,8,5.5
-FS-066,Jared Ortiz,Janice Garza,7,9,6,8,7.5
-FS-066,Jared Ortiz,Andrew Robinson,9,7,8,6,7.5
-FS-066,Jared Ortiz,Jacob Lewis,9,7,7,5,7.0
-FS-066,Jared Ortiz,Jason Jackson,1,9,9,8,6.75
-FS-066,Jared Ortiz,Jonathan Brock,4,9,5,9,6.75
-FS-062,Megan Simpson,Kim Sanchez,10,6,9,9,8.5
-FS-062,Megan Simpson,Joseph Gregory,5,8,8,9,7.5
-FS-062,Megan Simpson,Ashley Chandler,6,10,5,8,7.25
-FS-062,Megan Simpson,Emma Banks,7,9,6,6,7.0
-FS-062,Megan Simpson,Hannah Gomez,9,9,4,4,6.5
-FS-061,Megan Simpson,Daniel Hernandez,10,7,9,10,9.0
-FS-061,Megan Simpson,Joseph Dennis,4,7,5,5,5.25
-FS-061,Megan Simpson,Kyle Brown,2,4,5,9,5.0
-FS-061,Megan Simpson,David Moore,0,4,8,7,4.75
-FS-061,Megan Simpson,Julie Medina,6,6,2,4,4.5
-FS-051,Jared Ortiz,Michelle Faulkner,6,7,6,7,6.5
-FS-051,Jared Ortiz,Jason Allison DVM,9,9,7,0,6.25
-FS-051,Jared Ortiz,Monique Barnes,3,6,9,5,5.75
-FS-051,Jared Ortiz,Lauren Mercer,5,4,9,2,5.0
-FS-051,Jared Ortiz,Renee Johnson,2,2,5,5,3.5
-FS-047,Lisa Jackson,Heather Chapman,6,4,8,9,6.75
-FS-047,Lisa Jackson,Geoffrey Mullen,10,2,4,1,4.25
-FS-047,Lisa Jackson,Mary Wilson,5,3,4,5,4.25
-FS-047,Lisa Jackson,Paul Mitchell,4,0,3,8,3.75
-FS-047,Lisa Jackson,Lisa Curry,0,7,3,4,3.5
-FS-045,Sheena Maxwell,Maria Knight,7,4,7,8,6.5
-FS-045,Sheena Maxwell,Brittany Simmons,9,8,3,5,6.25
-FS-045,Sheena Maxwell,Taylor Cox,4,9,1,10,6.0
-FS-045,Sheena Maxwell,Holly Todd,10,0,5,9,6.0
-FS-045,Sheena Maxwell,Jonathan Gordon,8,7,2,5,5.5
-FS-044,Jonathan Stone,Andrea Morales,1,3,10,1,3.75
-FS-042,Cassandra Fuentes,Matthew Boyd,4,9,5,10,7.0
-FS-042,Cassandra Fuentes,Randy Myers,6,9,6,7,7.0
-FS-042,Cassandra Fuentes,Emily Edwards,8,5,8,6,6.75
-FS-042,Cassandra Fuentes,Michael Garcia,2,7,7,10,6.5
-FS-042,Cassandra Fuentes,Joshua Clark,3,10,9,4,6.5
-FS-041,Roberto Daniel,Amanda Matthews,7,10,5,8,7.5
-FS-041,Roberto Daniel,Laura Jones,9,2,10,9,7.5
-FS-041,Roberto Daniel,Melinda Payne,9,8,6,4,6.75
-FS-041,Roberto Daniel,George Owens,8,4,9,5,6.5
-FS-041,Roberto Daniel,Autumn Thomas,6,2,7,9,6.0
-FS-040,Daniel Hopkins,Shawn Allen,10,6,5,8,7.25
-FS-040,Daniel Hopkins,Debbie Moreno,8,7,6,8,7.25
-FS-040,Daniel Hopkins,Jason Brennan,1,10,9,8,7.0
-FS-040,Daniel Hopkins,Andrew Smith,5,7,6,9,6.75
-FS-040,Daniel Hopkins,Steven Butler,9,5,5,2,5.25
-FS-035,William Ward,Deanna Clay,7,8,7,9,7.75
-FS-035,William Ward,Hannah Cunningham MD,10,5,4,8,6.75
-FS-035,William Ward,Mr. Timothy Miller Jr.,7,7,10,1,6.25
-FS-035,William Ward,Nathaniel Jordan,5,4,5,5,4.75
-FS-035,William Ward,Melinda Payne,1,2,8,7,4.5
-FS-032,Jeremy Medina,Frank George,4,8,3,5,5.0
-FS-032,Jeremy Medina,Laura Jones,3,1,8,7,4.75
-FS-032,Jeremy Medina,Peter Moyer,2,3,9,1,3.75
-FS-032,Jeremy Medina,Tyler Wade,5,1,3,2,2.75
-FS-026,Teresa Bentley,Kim Baxter,9,9,6,6,7.5
-FS-026,Teresa Bentley,James Howell DDS,9,6,5,9,7.25
-FS-026,Teresa Bentley,Troy Dunlap,3,8,6,10,6.75
-FS-026,Teresa Bentley,Martha Thornton,8,6,8,2,6.0
-FS-026,Teresa Bentley,Jennifer Valdez,5,4,4,8,5.25
-FS-021,Juan Coleman,Carolyn Bennett,10,10,10,0,7.5
-FS-021,Juan Coleman,Janet Serrano,9,8,9,2,7.0
-FS-021,Juan Coleman,Dorothy Smith,8,7,8,4,6.75
-FS-021,Juan Coleman,Felicia Brown,8,1,7,9,6.25
-FS-021,Juan Coleman,Miss Lauren Miranda,4,8,6,6,6.0
-FS-019,Mary Ortiz,Jason Myers,8,7,10,8,8.25
-FS-019,Mary Ortiz,Paul Mitchell,10,2,8,9,7.25
-FS-019,Mary Ortiz,Claire Bradley,6,6,7,10,7.25
-FS-019,Mary Ortiz,Christopher Hayes,6,9,3,9,6.75
-FS-019,Mary Ortiz,Richard Hayes,8,5,2,9,6.0
-FS-017,Jessica Wilkinson,Terri Smith,6,7,5,10,7.0
-FS-017,Jessica Wilkinson,Jonathan Gordon,4,9,8,7,7.0
-FS-017,Jessica Wilkinson,William Murphy,9,3,9,6,6.75
-FS-017,Jessica Wilkinson,Shirley Miles,7,8,8,2,6.25
-FS-017,Jessica Wilkinson,Kimberly Harris,4,5,10,6,6.25
-FS-016,Christopher Bass,Kevin Porter,7,3,10,9,7.25
-FS-016,Christopher Bass,Christopher Diaz,9,8,4,7,7.0
-FS-016,Christopher Bass,Timothy Fuentes,6,10,7,5,7.0
-FS-016,Christopher Bass,Beth Greene,4,9,5,9,6.75
-FS-016,Christopher Bass,Laura Daniels,7,6,4,8,6.25
-FS-012,Shawn Lowe,Mary Wilson,9,8,9,6,8.0
-FS-012,Shawn Lowe,James King,8,9,3,7,6.75
-FS-012,Shawn Lowe,Anthony Harris,7,1,9,9,6.5
-FS-012,Shawn Lowe,Ashley Oneill,1,9,9,6,6.25
-FS-012,Shawn Lowe,Gary Li,3,10,1,8,5.5
-FS-001,Theresa Dixon,Elizabeth Freeman,10,6,8,10,8.5
-FS-001,Theresa Dixon,Denise Joseph,7,5,10,9,7.75
-FS-001,Theresa Dixon,Heather Silva,5,6,8,10,7.25
-FS-001,Theresa Dixon,Courtney Massey,7,6,7,9,7.25
-FS-001,Theresa Dixon,Troy Dunlap,4,5,9,9,6.75
-DS-098,Katie Davidson,Brandon Wade,3,6,10,8,6.75
-DS-098,Katie Davidson,Nicole Wilson,5,4,10,8,6.75
-DS-098,Katie Davidson,Harold Campbell,5,9,8,4,6.5
-DS-098,Katie Davidson,Bradley Jimenez,10,8,7,0,6.25
-DS-098,Katie Davidson,Kelly Chandler,8,6,3,8,6.25
-DS-089,Ms. Kara Smith,Nicole Hamilton,6,9,9,8,8.0
-DS-089,Ms. Kara Smith,Angela Ramirez,9,8,7,7,7.75
-DS-089,Ms. Kara Smith,Nicole Brandt,8,9,2,9,7.0
-DS-089,Ms. Kara Smith,Anna Arias,5,6,8,8,6.75
-DS-089,Ms. Kara Smith,Luis Soto,7,5,7,7,6.5
-DS-080,Ricardo Anderson,Elizabeth Higgins,10,9,9,6,8.5
-DS-080,Ricardo Anderson,Bradley Cabrera,6,5,9,8,7.0
-DS-080,Ricardo Anderson,Jane Cooper,7,9,6,4,6.5
-DS-080,Ricardo Anderson,Dennis Brown,8,2,10,6,6.5
-DS-080,Ricardo Anderson,Mr. Michael Riddle,9,9,4,4,6.5
-DS-075,Ronald Tanner,Keith Herrera,6,9,9,7,7.75
-DS-075,Ronald Tanner,Anthony Haynes,6,8,5,8,6.75
-DS-075,Ronald Tanner,Todd Kennedy,10,5,3,9,6.75
-DS-075,Ronald Tanner,Jonathan Carroll,6,5,7,8,6.5
-DS-075,Ronald Tanner,Sarah Tucker,9,6,1,8,6.0
-DS-063,Sara Le,Justin Johnson,8,5,9,6,7.0
-DS-063,Sara Le,Mark Cox,9,7,10,1,6.75
-DS-063,Sara Le,Kelly Mcdowell,0,7,10,8,6.25
-DS-063,Sara Le,Oscar Gibson,3,6,9,6,6.0
-DS-063,Sara Le,Amy Stephenson,9,3,6,5,5.75
-DS-057,Daniel Hopkins,Kelly Chandler,6,8,5,7,6.5
-DS-057,Daniel Hopkins,Janice Garza,7,3,6,9,6.25
-DS-057,Daniel Hopkins,Mary Cline,7,3,6,6,5.5
-DS-057,Daniel Hopkins,Cynthia Wright,2,7,6,7,5.5
-DS-057,Daniel Hopkins,Terri Smith,5,5,7,3,5.0
-DS-056,Scott Neal,Christina Reeves,10,10,6,1,6.75
-DS-056,Scott Neal,Theresa Mcdonald,10,7,1,9,6.75
-DS-056,Scott Neal,Nicole Hamilton,7,6,6,6,6.25
-DS-056,Scott Neal,Chelsea Smith,7,8,7,1,5.75
-DS-056,Scott Neal,Scott Williams,4,2,9,1,4.0
-DS-054,Carrie Mathis,Adam Underwood,9,8,6,7,7.5
-DS-054,Carrie Mathis,Taylor Cox,6,4,8,10,7.0
-DS-054,Carrie Mathis,Shirley Miles,6,5,6,9,6.5
-DS-054,Carrie Mathis,Brandon Mcknight,8,5,7,6,6.5
-DS-054,Carrie Mathis,Zachary Bennett,7,5,6,8,6.5
-DS-037,Edward Smith,Jane Scott,6,6,10,9,7.75
-DS-037,Edward Smith,Joseph Hahn,8,7,6,4,6.25
-DS-037,Edward Smith,Douglas Thomas,1,6,6,8,5.25
-DS-037,Edward Smith,Michelle Johnson,5,3,4,8,5.0
-DS-037,Edward Smith,Jamie Gardner,2,6,8,4,5.0
-DS-034,Lindsay Smith,Bobby Steele,6,5,9,9,7.25
-DS-034,Lindsay Smith,Anthony Valdez,10,7,4,3,6.0
-DS-034,Lindsay Smith,Brandon Campbell,4,5,6,8,5.75
-DS-034,Lindsay Smith,Krystal Hicks,8,6,2,3,4.75
-DS-034,Lindsay Smith,Luke Gates,10,1,3,3,4.25
-DS-033,Steven Todd,Shawn Dunn,7,10,4,8,7.25
-DS-033,Steven Todd,Amy Martin,5,10,5,5,6.25
-DS-033,Steven Todd,John Fox,4,7,3,10,6.0
-DS-033,Steven Todd,Darin Erickson,5,5,10,4,6.0
-DS-033,Steven Todd,Maureen Mcintyre,2,5,8,5,5.0
-DS-030,Steve Lopez,Morgan Pratt,4,6,10,8,7.0
-DS-030,Steve Lopez,James Fox,5,3,10,10,7.0
-DS-030,Steve Lopez,Michelle Lewis,9,9,4,5,6.75
-DS-030,Steve Lopez,George Foster,7,9,3,7,6.5
-DS-030,Steve Lopez,Shelley Walker,9,3,9,5,6.5
-DS-028,Anna Howell,Cassidy Burke,9,9,10,5,8.25
-DS-028,Anna Howell,Jason Cooper,6,10,6,9,7.75
-DS-028,Anna Howell,Randall Rich,10,10,10,1,7.75
-DS-028,Anna Howell,Brandon Salinas,3,8,9,7,6.75
-DS-028,Anna Howell,Matthew Turner,9,10,1,6,6.5
-DS-020,Dylan Lawson,Tammy Bowers,5,6,9,9,7.25
-DS-020,Dylan Lawson,Tiffany Smith DDS,1,7,9,3,5.0
-DS-020,Dylan Lawson,Theresa Mcdonald,3,3,6,7,4.75
-DS-020,Dylan Lawson,James Fox,4,9,6,0,4.75
-DS-020,Dylan Lawson,Katrina Perez,2,5,4,7,4.5
-DS-018,Amanda Goodman,Randall Rich,6,5,10,9,7.5
-DS-018,Amanda Goodman,Marie Rodriguez PhD,8,9,1,10,7.0
-DS-018,Amanda Goodman,Angela Peters,10,7,0,10,6.75
-DS-018,Amanda Goodman,Scott Figueroa,5,4,9,9,6.75
-DS-018,Amanda Goodman,Christopher Young,7,9,3,6,6.25
-DE-097,Lisa Jackson,Madison Bailey,8,9,7,6,7.5
-DE-097,Lisa Jackson,Claire Bradley,7,4,10,8,7.25
-DE-097,Lisa Jackson,Jeffrey Collins,9,9,1,9,7.0
-DE-097,Lisa Jackson,Robert Miller,1,8,9,10,7.0
-DE-097,Lisa Jackson,Mr. Timothy Miller Jr.,7,9,4,8,7.0
-DE-096,Anthony Bradford,Theresa Fletcher,7,10,5,4,6.5
-DE-092,Jeremy Medina,Nancy Nolan,7,9,9,6,7.75
-DE-092,Jeremy Medina,Troy Dunlap,9,9,4,6,7.0
-DE-092,Jeremy Medina,Donald Sweeney,7,10,10,1,7.0
-DE-092,Jeremy Medina,Amanda Shaw,6,8,4,9,6.75
-DE-092,Jeremy Medina,Kayla Larson,5,8,9,4,6.5
-DE-086,Jonathan Stone,Cassie Barber,8,5,9,9,7.75
-DE-086,Jonathan Stone,Kara Snyder,7,9,8,7,7.75
-DE-086,Jonathan Stone,Anthony Thornton,9,3,9,8,7.25
-DE-086,Jonathan Stone,Omar Frost,7,7,9,5,7.0
-DE-086,Jonathan Stone,Shannon Wong,8,5,10,5,7.0
-DE-084,Brandy Bullock,Ann Ortega,10,4,9,3,6.5
-DE-084,Brandy Bullock,Randy Myers,5,5,2,9,5.25
-DE-084,Brandy Bullock,Morgan Wood,8,10,2,1,5.25
-DE-084,Brandy Bullock,Vanessa Bailey,9,1,4,5,4.75
-DE-084,Brandy Bullock,Peter Moyer,6,2,7,3,4.5
-DE-083,Jonathan Stone,Kenneth Howell,5,6,9,10,7.5
-DE-083,Jonathan Stone,Brandon Salinas,7,10,3,10,7.5
-DE-083,Jonathan Stone,Leslie Carlson,7,8,4,9,7.0
-DE-083,Jonathan Stone,Victoria Kemp,10,3,8,6,6.75
-DE-083,Jonathan Stone,Tyler Wade,6,8,1,10,6.25
-DE-082,Rhonda Miller,Ronald Valdez,7,9,7,7,7.5
-DE-082,Rhonda Miller,Elijah Harris,3,9,6,9,6.75
-DE-082,Rhonda Miller,Sandra Gomez,8,0,9,9,6.5
-DE-082,Rhonda Miller,Joshua Rogers,5,9,9,2,6.25
-DE-082,Rhonda Miller,Aaron Martinez,10,5,7,2,6.0
-DE-073,Carolyn Brown,Debbie Moreno,7,4,9,9,7.25
-DE-073,Carolyn Brown,Brandon Mayo,3,7,4,9,5.75
-DE-073,Carolyn Brown,Mr. Michael Riddle,1,8,5,8,5.5
-DE-073,Carolyn Brown,Seth Coffey PhD,9,2,9,1,5.25
-DE-073,Carolyn Brown,Daniel Hernandez,8,9,1,3,5.25
-DE-069,Jesus Carter,James Cole,9,5,8,7,7.25
-DE-069,Jesus Carter,Natalie Turner,8,7,10,3,7.0
-DE-069,Jesus Carter,Joshua Grant,10,8,3,6,6.75
-DE-069,Jesus Carter,Richard Cantrell,5,7,5,10,6.75
-DE-069,Jesus Carter,Jeffery Collins,8,10,3,2,5.75
-DE-064,Tina Chen DVM,Christopher Diaz,8,8,8,1,6.25
-DE-064,Tina Chen DVM,Troy Cross,3,8,7,6,6.0
-DE-064,Tina Chen DVM,Sonya Lane,5,5,4,9,5.75
-DE-064,Tina Chen DVM,Alexander Henderson,8,8,1,5,5.5
-DE-064,Tina Chen DVM,Jacob Salazar,9,0,9,2,5.0
-DE-060,Jill Munoz,Gina Osborn,7,8,2,5,5.5
-DE-053,Jennifer Petty,Pamela Graves,4,9,9,4,6.5
-DE-048,Jared Williamson,Brandi Jones,10,7,10,6,8.25
-DE-048,Jared Williamson,Douglas Crawford,6,10,5,9,7.5
-DE-048,Jared Williamson,Daniel Tapia,10,4,9,7,7.5
-DE-048,Jared Williamson,Claire Bradley,6,8,3,9,6.5
-DE-048,Jared Williamson,Valerie Thompson,9,1,7,6,5.75
-DE-029,Steven Estes,Crystal Williamson,6,8,8,8,7.5
-DE-029,Steven Estes,William Murphy,9,5,5,8,6.75
-DE-029,Steven Estes,Donna Wilson,8,5,10,1,6.0
-DE-029,Steven Estes,Kelly Townsend,5,7,1,9,5.5
-DE-029,Steven Estes,Leslie Sanchez,5,2,6,8,5.25
-DE-025,Ariana Stevens,Derek Glenn,9,8,7,5,7.25
-DE-025,Ariana Stevens,Nicole Hamilton,3,8,9,9,7.25
-DE-025,Ariana Stevens,Kristina Richmond,7,7,8,5,6.75
-DE-025,Ariana Stevens,Kevin Porter,7,3,9,7,6.5
-DE-025,Ariana Stevens,Tracy Nielsen,9,7,3,7,6.5
-DE-011,Brittany Ramirez,Sarah Rogers,9,10,10,1,7.5
-DE-011,Brittany Ramirez,Victoria Kemp,8,4,8,8,7.0
-DE-011,Brittany Ramirez,Luke Gates,7,9,4,8,7.0
-DE-011,Brittany Ramirez,Timothy Hernandez,8,10,4,1,5.75
-DE-011,Brittany Ramirez,Jennifer Elliott,4,7,6,5,5.5
-DE-009,Jennifer Fleming,Andrew Robinson,9,5,2,9,6.25
-DE-009,Jennifer Fleming,Jonathan Gordon,4,10,5,4,5.75
-DE-009,Jennifer Fleming,Shawn Allen,8,6,5,3,5.5
-DE-009,Jennifer Fleming,Janice Garza,4,2,10,5,5.25
-DE-009,Jennifer Fleming,Christopher Medina,5,7,5,3,5.0
-DE-006,Keith Roberson,Susan Lopez,7,9,8,10,8.5
-DE-006,Keith Roberson,Caleb Wright,8,4,10,6,7.0
-DE-006,Keith Roberson,Jordan Lawson,8,8,5,7,7.0
-DE-006,Keith Roberson,Thomas Thompson,10,3,8,7,7.0
-DE-006,Keith Roberson,Deanna Clay,5,10,4,2,5.25
+UI-096,Vicki Allen,Martha Aguilar,5,9,8,10,8.0
+UI-096,Vicki Allen,Jennifer Mercer,7,9,7,9,8.0
+UI-096,Vicki Allen,Richard Mcdonald,7,6,9,10,8.0
+UI-096,Vicki Allen,Jason Thomas,7,9,8,8,8.0
+UI-096,Vicki Allen,Amy Miller,3,7,8,10,7.0
+UI-082,Jessica Nixon,Keith Williams,9,7,9,7,8.0
+UI-082,Jessica Nixon,Tonya White,7,10,6,8,7.75
+UI-082,Jessica Nixon,David Branch,9,4,5,9,6.75
+UI-082,Jessica Nixon,Michael Strickland,1,7,9,9,6.5
+UI-082,Jessica Nixon,Susan Cruz,9,6,2,9,6.5
+UI-076,Michael Johnson,Michelle Bautista,8,9,6,9,8.0
+UI-076,Michael Johnson,William Acevedo,6,10,8,7,7.75
+UI-076,Michael Johnson,Cory Richardson,8,8,7,6,7.25
+UI-076,Michael Johnson,Matthew Acosta,3,9,8,7,6.75
+UI-076,Michael Johnson,Amy Long,9,7,8,3,6.75
+UI-066,James Lane,Gregory Lucas,7,3,10,6,6.5
+UI-066,James Lane,Melissa York,5,10,8,3,6.5
+UI-066,James Lane,Tina Smith,10,6,4,6,6.5
+UI-066,James Lane,Kimberly Brown,7,7,9,2,6.25
+UI-066,James Lane,Katherine Mclaughlin,6,6,4,6,5.5
+UI-064,Nancy Williams,Kristina Moyer,10,10,7,8,8.75
+UI-064,Nancy Williams,Mrs. Whitney Martin,8,8,9,2,6.75
+UI-064,Nancy Williams,Wayne Lee Jr.,7,6,3,9,6.25
+UI-064,Nancy Williams,Louis Nash,9,3,6,6,6.0
+UI-064,Nancy Williams,Michael Cooper,6,7,4,6,5.75
+UI-062,Rachel Pierce,David Byrd,8,7,8,7,7.5
+UI-062,Rachel Pierce,Leslie Garcia,7,4,8,8,6.75
+UI-062,Rachel Pierce,Kimberly Morris,9,3,10,5,6.75
+UI-062,Rachel Pierce,Jenna Cruz,7,8,2,8,6.25
+UI-062,Rachel Pierce,Sharon Vargas,8,0,10,7,6.25
+UI-057,Brian Owens,Brian Williams,3,9,10,8,7.5
+UI-057,Brian Owens,Alyssa Robertson,6,10,9,5,7.5
+UI-057,Brian Owens,Michael Cooper,9,4,6,5,6.0
+UI-057,Brian Owens,Keith Williams,7,5,6,6,6.0
+UI-057,Brian Owens,David Sanders,8,8,2,2,5.0
+UI-055,Diana Morton,Jeffrey Vazquez,10,9,3,7,7.25
+UI-055,Diana Morton,Brian Cole,5,10,9,3,6.75
+UI-055,Diana Morton,Maria Rice,6,9,9,2,6.5
+UI-055,Diana Morton,Sheila Nichols,4,8,7,7,6.5
+UI-055,Diana Morton,Joshua Mcintosh,5,7,9,3,6.0
+UI-052,Michael Tran,Julie Marshall,5,9,9,8,7.75
+UI-052,Michael Tran,Jose Fernandez,7,7,7,7,7.0
+UI-052,Michael Tran,Dawn Jackson,3,9,9,7,7.0
+UI-052,Michael Tran,Laura Castro,9,10,4,3,6.5
+UI-052,Michael Tran,Samantha Robinson,6,9,6,3,6.0
+UI-041,Chris Torres,Andrew Phillips,8,9,9,5,7.75
+UI-041,Chris Torres,Troy Lee,9,10,4,1,6.0
+UI-041,Chris Torres,David Byrd,0,9,10,4,5.75
+UI-041,Chris Torres,Anthony Campbell,0,10,9,3,5.5
+UI-041,Chris Torres,Kimberly Morris,3,8,4,7,5.5
+UI-040,Tracy Rogers,Isaac James,10,2,10,9,7.75
+UI-040,Tracy Rogers,Sabrina Miller,5,10,6,9,7.5
+UI-040,Tracy Rogers,Spencer Garcia,8,4,9,7,7.0
+UI-040,Tracy Rogers,Jeremiah Jenkins,5,6,7,10,7.0
+UI-040,Tracy Rogers,Brian Jones,9,8,4,6,6.75
+UI-026,Catherine Mckinney,Maria Rice,10,10,8,9,9.25
+UI-026,Catherine Mckinney,Christopher Johnson,10,6,10,8,8.5
+UI-026,Catherine Mckinney,Linda Williams,10,9,5,7,7.75
+UI-026,Catherine Mckinney,Jenny Horne,9,6,9,6,7.5
+UI-026,Catherine Mckinney,Elizabeth Rivas,2,6,10,8,6.5
+UI-018,Douglas Mcintosh,Danny Cook,9,6,4,5,6.0
+UI-018,Douglas Mcintosh,Gerald Lee,2,3,9,9,5.75
+UI-018,Douglas Mcintosh,Kristina Moyer,0,9,4,10,5.75
+UI-018,Douglas Mcintosh,Julie Ochoa,2,5,9,5,5.25
+UI-018,Douglas Mcintosh,John Baker,8,3,2,7,5.0
+UI-015,William Fowler,Jennifer Hughes,9,6,9,7,7.75
+UI-015,William Fowler,Derek Carson,8,8,7,5,7.0
+UI-015,William Fowler,Victoria Johnson,9,8,10,1,7.0
+UI-015,William Fowler,Christopher Frazier,9,6,6,5,6.5
+UI-015,William Fowler,Whitney Fuller,5,8,9,4,6.5
+UI-013,Cassandra Nguyen,Megan Odonnell,6,9,4,5,6.0
+UI-013,Cassandra Nguyen,Brian Koch,8,8,4,3,5.75
+UI-013,Cassandra Nguyen,Misty Gross,7,4,6,3,5.0
+UI-013,Cassandra Nguyen,Benjamin Henry,1,8,6,5,5.0
+UI-013,Cassandra Nguyen,Jeffrey Vazquez,7,6,1,5,4.75
+UI-012,Dana Castillo,Robert Harding,5,7,4,5,5.25
+UI-012,Dana Castillo,Heather Griffin,0,6,10,2,4.5
+UI-012,Dana Castillo,Jordan Jimenez,1,5,5,1,3.0
+UI-011,Valerie Park,Anthony Taylor,3,3,2,9,4.25
+UI-011,Valerie Park,Jose Harris,4,1,10,1,4.0
+UI-011,Valerie Park,Dr. Dustin Ramsey,1,2,9,3,3.75
+UI-011,Valerie Park,James Meyer,0,4,2,5,2.75
+UI-005,Christian Perkins,Anne Thornton,8,7,10,3,7.0
+UI-005,Christian Perkins,Andrew Wilson,4,7,8,9,7.0
+UI-005,Christian Perkins,Nicole Reed,7,5,8,7,6.75
+UI-005,Christian Perkins,Christian Harding,4,6,7,9,6.5
+UI-005,Christian Perkins,Jason Thomas,5,10,1,9,6.25
+UI-003,Hunter Garrison,Haley Taylor,9,10,3,7,7.25
+UI-003,Hunter Garrison,Megan Odonnell,6,10,6,6,7.0
+UI-003,Hunter Garrison,David Simpson,9,3,7,7,6.5
+UI-003,Hunter Garrison,Sarah Brown,6,6,3,9,6.0
+UI-003,Hunter Garrison,Jennifer Cain,7,2,7,8,6.0
+UI-002,James Harris,Anthony Bonilla,5,8,9,6,7.0
+UI-002,James Harris,Leah Snyder,7,8,10,2,6.75
+UI-002,James Harris,Cynthia Herrera,2,6,7,9,6.0
+UI-002,James Harris,Kristin Griffin,9,2,9,0,5.0
+UI-002,James Harris,Deborah Cox,1,6,9,3,4.75
+ST-086,Natalie Roberts,Andrew Porter,10,6,4,10,7.5
+ST-086,Natalie Roberts,Cathy Weber,7,7,6,5,6.25
+ST-086,Natalie Roberts,Brenda Wong,6,4,8,7,6.25
+ST-086,Natalie Roberts,David Coleman,8,5,9,2,6.0
+ST-086,Natalie Roberts,Derek Wheeler,9,2,5,7,5.75
+ST-085,Philip Duke,Jacob Lara,5,8,9,8,7.5
+ST-085,Philip Duke,Sandra Hines,6,4,10,9,7.25
+ST-085,Philip Duke,Bobby King,9,8,2,5,6.0
+ST-085,Philip Duke,Philip Lyons,8,8,3,5,6.0
+ST-085,Philip Duke,Audrey Blake,9,3,2,7,5.25
+ST-079,Mariah Gregory,Jessica Lewis,10,5,9,6,7.5
+ST-079,Mariah Gregory,Jose Fernandez,5,10,5,8,7.0
+ST-079,Mariah Gregory,Robert Ballard,6,7,7,7,6.75
+ST-079,Mariah Gregory,Roger Cortez,9,6,5,6,6.5
+ST-079,Mariah Gregory,Linda Taylor,10,7,7,2,6.5
+ST-074,William Fowler,Isabella Shields,8,8,6,8,7.5
+ST-074,William Fowler,Allen Holland,5,9,9,7,7.5
+ST-074,William Fowler,Daniel Moore,9,8,8,3,7.0
+ST-074,William Fowler,Joe Mcdowell,3,8,8,7,6.5
+ST-074,William Fowler,Frederick Hill,7,7,6,4,6.0
+ST-073,Susan Williams,James Brown,8,8,8,9,8.25
+ST-073,Susan Williams,Wesley Stuart,3,7,8,7,6.25
+ST-073,Susan Williams,Andrew Gilbert IV,9,8,3,4,6.0
+ST-073,Susan Williams,Angel Gomez,6,9,1,8,6.0
+ST-073,Susan Williams,Jonathan Bell,9,2,9,4,6.0
+ST-071,Patricia Sullivan,Denise Wright,7,8,8,6,7.25
+ST-071,Patricia Sullivan,Michael Garner,5,8,7,7,6.75
+ST-071,Patricia Sullivan,Dr. Suzanne Haynes DDS,10,2,8,6,6.5
+ST-071,Patricia Sullivan,Thomas Sims,9,7,2,8,6.5
+ST-071,Patricia Sullivan,Michael White,6,9,2,7,6.0
+ST-059,April Foster,Cory Mckinney,10,6,8,4,7.0
+ST-059,April Foster,Katelyn Ford,9,8,2,9,7.0
+ST-059,April Foster,Kyle Davis,6,6,9,6,6.75
+ST-059,April Foster,Erika Oliver,9,2,8,7,6.5
+ST-059,April Foster,Terri Woods,7,2,8,8,6.25
+ST-049,Matthew Villa,Amber Wolfe,9,2,10,10,7.75
+ST-049,Matthew Villa,Chad Jones,8,8,8,5,7.25
+ST-049,Matthew Villa,Kimberly Jordan,8,4,9,4,6.25
+ST-049,Matthew Villa,Mr. Roger Webster,3,7,6,7,5.75
+ST-049,Matthew Villa,James Ward,6,1,9,5,5.25
+ST-043,Ashley Malone,Robert Smith,5,5,7,9,6.5
+ST-043,Ashley Malone,Pamela Pena,4,6,1,9,5.0
+ST-043,Ashley Malone,Kristine Long,3,4,5,7,4.75
+ST-043,Ashley Malone,Leah Snyder,2,8,3,5,4.5
+ST-043,Ashley Malone,Alyssa Robertson,0,7,3,7,4.25
+ST-037,Craig Bates,David Rice,7,9,5,9,7.5
+ST-037,Craig Bates,Megan Wright,8,9,4,8,7.25
+ST-037,Craig Bates,Erika Oliver,8,10,1,9,7.0
+ST-037,Craig Bates,Jason Johnson,10,4,4,10,7.0
+ST-037,Craig Bates,Matthew Green,8,7,9,2,6.5
+ST-035,Jennifer Martinez,Gregory Andrews,4,9,7,9,7.25
+ST-035,Jennifer Martinez,Deanna Cummings,9,10,5,4,7.0
+ST-035,Jennifer Martinez,Cathy Weber,4,9,10,2,6.25
+ST-035,Jennifer Martinez,Sean Stout,4,9,5,6,6.0
+ST-035,Jennifer Martinez,Patrick White,1,4,10,6,5.25
+ST-033,Kayla Lee,Anthony Taylor,8,6,9,10,8.25
+ST-033,Kayla Lee,Steve Fowler,2,9,6,10,6.75
+ST-033,Kayla Lee,Jason Rodriguez,8,5,10,4,6.75
+ST-033,Kayla Lee,William Chapman,7,5,3,10,6.25
+ST-033,Kayla Lee,Charles Marks,7,7,3,8,6.25
+ST-029,Angelica Leonard,Sara Nichols,5,7,7,9,7.0
+ST-029,Angelica Leonard,Patricia Richard,8,10,4,4,6.5
+ST-029,Angelica Leonard,Shannon Mcclure,3,8,5,9,6.25
+ST-029,Angelica Leonard,Denise Wright,0,9,8,6,5.75
+ST-029,Angelica Leonard,Jeffrey Melton,3,4,9,6,5.5
+ST-027,Cynthia Howard,Valerie Hawkins,10,10,1,10,7.75
+ST-027,Cynthia Howard,Timothy Garcia,4,9,9,3,6.25
+ST-027,Cynthia Howard,Kaitlin Hernandez,8,7,2,8,6.25
+ST-027,Cynthia Howard,Andre Fisher,9,5,4,5,5.75
+ST-027,Cynthia Howard,Jennifer Moody,4,3,5,9,5.25
+ST-016,Adam Williams,Joshua Lawson,9,7,10,8,8.5
+ST-016,Adam Williams,Terri Arnold,7,9,9,8,8.25
+ST-016,Adam Williams,Linda Rodriguez,8,9,8,6,7.75
+ST-016,Adam Williams,Tony Obrien,4,7,8,8,6.75
+ST-016,Adam Williams,Michael Alvarez,10,6,8,3,6.75
+ST-007,Christine Chang,Erica Norman,10,10,7,8,8.75
+ST-007,Christine Chang,Patricia Gilmore,9,8,9,5,7.75
+ST-007,Christine Chang,Cathy Weber,3,7,3,9,5.5
+ST-007,Christine Chang,Carol Berg,1,7,7,6,5.25
+ST-007,Christine Chang,Lisa Zhang,4,2,6,9,5.25
+ST-001,Alexander Baker,Mr. Roy Jackson,10,5,8,6,7.25
+ST-001,Alexander Baker,Michele Barber,9,4,4,10,6.75
+ST-001,Alexander Baker,Kevin Griffin,3,6,9,8,6.5
+ST-001,Alexander Baker,Amanda Andrews,3,7,7,9,6.5
+ST-001,Alexander Baker,Donna Cabrera,1,6,8,9,6.0
+FS-094,Tracy Rogers,Sarah Briggs,7,5,8,7,6.75
+FS-094,Tracy Rogers,Yvette Thompson,4,9,9,4,6.5
+FS-094,Tracy Rogers,Jasmine Weaver MD,8,8,8,2,6.5
+FS-094,Tracy Rogers,Lisa Harris,7,6,5,7,6.25
+FS-094,Tracy Rogers,Benjamin Henry,8,4,4,9,6.25
+FS-093,Dylan Villanueva,Sabrina Miller,9,7,5,8,7.25
+FS-093,Dylan Villanueva,Laura Castro,9,9,1,9,7.0
+FS-093,Dylan Villanueva,Melinda Morgan,9,8,1,10,7.0
+FS-093,Dylan Villanueva,Mary Reynolds,4,9,9,5,6.75
+FS-093,Dylan Villanueva,Russell Martin,9,9,2,7,6.75
+FS-092,Christopher Johnston,Wyatt Obrien,7,8,10,10,8.75
+FS-092,Christopher Johnston,Jennifer Moody,10,7,4,8,7.25
+FS-092,Christopher Johnston,Gregory Clark,8,2,9,10,7.25
+FS-092,Christopher Johnston,David Coleman,3,9,10,6,7.0
+FS-092,Christopher Johnston,Jason Thomas,8,6,9,4,6.75
+FS-084,Tina Hensley,Rebecca Bennett,6,10,9,10,8.75
+FS-084,Tina Hensley,Jeremiah Jenkins,10,10,7,2,7.25
+FS-084,Tina Hensley,Tammy Jones,10,6,9,3,7.0
+FS-084,Tina Hensley,Alexander Anderson,7,9,9,2,6.75
+FS-084,Tina Hensley,Hannah Graves,8,6,3,10,6.75
+FS-081,Kathryn Weaver,Emily Galvan,9,6,7,9,7.75
+FS-081,Kathryn Weaver,Jessica Taylor,9,6,6,9,7.5
+FS-081,Kathryn Weaver,Patricia Gilmore,7,6,7,9,7.25
+FS-081,Kathryn Weaver,Lori Baker,6,4,10,4,6.0
+FS-081,Kathryn Weaver,Amy Miller,5,6,3,9,5.75
+FS-075,Mrs. Katie Yu,James Miller,7,9,10,1,6.75
+FS-075,Mrs. Katie Yu,Robin Mitchell,3,7,10,6,6.5
+FS-075,Mrs. Katie Yu,Marcus Bryant,5,3,8,8,6.0
+FS-075,Mrs. Katie Yu,Sierra Salinas,6,2,8,6,5.5
+FS-075,Mrs. Katie Yu,Robert Rodriguez,4,7,8,2,5.25
+FS-072,Victor Kline,Matthew Acosta,7,9,8,9,8.25
+FS-072,Victor Kline,Kaitlyn Harris,8,9,2,9,7.0
+FS-072,Victor Kline,John Richardson,7,7,8,5,6.75
+FS-072,Victor Kline,Robert Monroe,6,9,6,5,6.5
+FS-072,Victor Kline,Emily Summers,9,5,5,6,6.25
+FS-069,Joshua Richardson,Patrick Cisneros,9,3,9,9,7.5
+FS-069,Joshua Richardson,Tara Carter,7,8,8,7,7.5
+FS-069,Joshua Richardson,Carlos Jones,6,8,5,10,7.25
+FS-069,Joshua Richardson,Dr. Dustin Ramsey,9,6,5,8,7.0
+FS-069,Joshua Richardson,Spencer Garcia,7,9,5,6,6.75
+FS-067,Julie Willis,Carl King,5,8,3,10,6.5
+FS-067,Julie Willis,Christian Harding,8,6,6,6,6.5
+FS-067,Julie Willis,Paula Adkins,3,7,6,9,6.25
+FS-067,Julie Willis,Rachel Hernandez,4,5,8,8,6.25
+FS-067,Julie Willis,Ray Morrison,7,7,8,3,6.25
+FS-048,Lindsay Knight,Sharon Vargas,5,5,6,8,6.0
+FS-048,Lindsay Knight,Miss Linda Smith,8,3,6,7,6.0
+FS-048,Lindsay Knight,Amy Long,5,6,4,8,5.75
+FS-048,Lindsay Knight,Denise Wright,9,3,4,4,5.0
+FS-048,Lindsay Knight,Maureen Doyle,5,6,3,2,4.0
+FS-047,Casey Bartlett,Kaylee Ford,9,10,8,4,7.75
+FS-047,Casey Bartlett,Donald Esparza,8,5,7,9,7.25
+FS-047,Casey Bartlett,Elizabeth Mendoza,9,9,8,2,7.0
+FS-047,Casey Bartlett,Steven Thomas,7,5,6,9,6.75
+FS-047,Casey Bartlett,Melissa York,1,7,5,10,5.75
+FS-045,Dr. Kristin Lee,Thomas Ritter,7,3,8,9,6.75
+FS-045,Dr. Kristin Lee,Joseph Boyd,5,10,7,3,6.25
+FS-045,Dr. Kristin Lee,Leslie Payne,10,1,5,9,6.25
+FS-045,Dr. Kristin Lee,Megan Schmitt,5,7,9,3,6.0
+FS-045,Dr. Kristin Lee,Joanne Phillips,4,8,1,10,5.75
+FS-036,Hunter Garrison,Logan Chan,9,9,9,5,8.0
+FS-036,Hunter Garrison,Karen Miller,7,9,4,9,7.25
+FS-036,Hunter Garrison,Donna Branch,10,6,5,7,7.0
+FS-036,Hunter Garrison,Rachel Flowers,6,8,9,2,6.25
+FS-036,Hunter Garrison,Kevin Jackson,5,9,3,6,5.75
+FS-030,Diana Morton,Donald Esparza,8,8,9,9,8.5
+FS-030,Diana Morton,Connie Salazar,10,7,9,6,8.0
+FS-030,Diana Morton,Thomas Ritter,4,7,10,8,7.25
+FS-030,Diana Morton,Lori Baker,10,5,8,4,6.75
+FS-030,Diana Morton,Jamie Rangel,1,9,7,8,6.25
+FS-023,Jason Collins,Eddie Moore,5,6,7,2,5.0
+FS-023,Jason Collins,Jeremiah Jenkins,9,0,2,8,4.75
+FS-023,Jason Collins,Cory Mckinney,6,6,1,2,3.75
+FS-023,Jason Collins,Tara Haas,2,0,3,1,1.5
+FS-019,Anthony Ferguson,Brianna Rodgers,7,9,3,9,7.0
+FS-019,Anthony Ferguson,Robert Dunn,8,9,6,5,7.0
+FS-019,Anthony Ferguson,Jessica White,2,9,9,8,7.0
+FS-019,Anthony Ferguson,Jennifer Moody,8,9,6,5,7.0
+FS-019,Anthony Ferguson,Mary Jacobs,10,8,5,4,6.75
+FS-017,Erik Adams,Jonathan Sims,1,10,3,9,5.75
+FS-017,Erik Adams,Angela Schaefer,5,1,7,7,5.0
+FS-017,Erik Adams,Patricia Richard,1,2,6,7,4.0
+DS-100,Matthew Diaz III,Teresa Turner,7,6,9,2,6.0
+DS-100,Matthew Diaz III,William Jensen,8,2,8,3,5.25
+DS-100,Matthew Diaz III,Jeffrey Parker,1,10,5,4,5.0
+DS-100,Matthew Diaz III,Bradley Ball,6,4,2,8,5.0
+DS-100,Matthew Diaz III,Timothy Garcia,5,3,5,6,4.75
+DS-099,Taylor Jackson,Amy Turner,9,4,10,8,7.75
+DS-099,Taylor Jackson,Angel Little,9,5,5,8,6.75
+DS-099,Taylor Jackson,Grace Holder,8,10,8,0,6.5
+DS-099,Taylor Jackson,Mr. Frank Thompson,1,8,6,10,6.25
+DS-099,Taylor Jackson,Kristin Griffin,9,9,5,2,6.25
+DS-097,Julie Willis,Michael Alvarez,8,9,9,5,7.75
+DS-097,Julie Willis,Philip Lyons,3,3,10,10,6.5
+DS-097,Julie Willis,Rebecca Bryant,3,10,4,7,6.0
+DS-097,Julie Willis,Paul Mcdaniel,10,0,9,5,6.0
+DS-097,Julie Willis,Joe Mcdowell,9,3,5,3,5.0
+DS-095,Michael Frost,Christian Harding,8,3,5,6,5.5
+DS-095,Michael Frost,Steven Thomas,3,6,2,10,5.25
+DS-095,Michael Frost,Katherine Clark,9,7,1,2,4.75
+DS-090,April Smith,Adrian Smith,8,10,9,3,7.5
+DS-090,April Smith,Brooke Mccarthy,9,5,8,7,7.25
+DS-090,April Smith,Robert Harding,8,10,6,5,7.25
+DS-090,April Smith,Autumn Page,7,10,7,4,7.0
+DS-090,April Smith,Calvin Velazquez,9,4,7,6,6.5
+DS-089,Danny Stevens,John Smith,4,8,4,10,6.5
+DS-089,Danny Stevens,Mr. John Adams DVM,2,4,9,9,6.0
+DS-089,Danny Stevens,Sean Hernandez,9,9,3,2,5.75
+DS-089,Danny Stevens,Pamela Stevens,5,8,4,5,5.5
+DS-089,Danny Stevens,Michelle Taylor,8,6,2,5,5.25
+DS-083,Patricia Shepard DVM,Kelly Stout,7,2,6,10,6.25
+DS-083,Patricia Shepard DVM,Mrs. Jamie Eaton,1,9,4,10,6.0
+DS-083,Patricia Shepard DVM,Michelle Bautista,5,7,5,5,5.5
+DS-083,Patricia Shepard DVM,Jeanette Perez,5,1,9,5,5.0
+DS-083,Patricia Shepard DVM,Eddie Moore,3,3,7,6,4.75
+DS-080,Kendra Robinson,Shannon Taylor DDS,4,10,9,9,8.0
+DS-080,Kendra Robinson,Matthew Ward,5,7,8,9,7.25
+DS-080,Kendra Robinson,Miguel Kent,8,10,5,6,7.25
+DS-080,Kendra Robinson,Peggy Torres,9,2,9,8,7.0
+DS-080,Kendra Robinson,Mary Sawyer,3,5,10,9,6.75
+DS-077,Matthew Gonzalez,Christopher Smith,8,7,7,9,7.75
+DS-077,Matthew Gonzalez,Erica Norman,9,9,4,7,7.25
+DS-077,Matthew Gonzalez,Tony Caldwell,8,6,6,8,7.0
+DS-077,Matthew Gonzalez,Ricardo Phillips,9,10,1,6,6.5
+DS-077,Matthew Gonzalez,Cody Smith,7,6,10,2,6.25
+DS-070,Amber Powers,Shannon Mcclure,8,9,8,6,7.75
+DS-070,Amber Powers,Kirk Hopkins,5,9,6,9,7.25
+DS-070,Amber Powers,Joshua Williams,8,9,9,3,7.25
+DS-070,Amber Powers,Sean Stout,9,8,2,10,7.25
+DS-070,Amber Powers,Jeffrey Melton,8,10,3,6,6.75
+DS-068,Diana Morton,Jacqueline Moore,9,8,9,6,8.0
+DS-068,Diana Morton,Kristen Mitchell,10,8,7,1,6.5
+DS-068,Diana Morton,Mr. Robert Dennis DDS,7,4,6,6,5.75
+DS-068,Diana Morton,Kevin Faulkner,7,6,8,1,5.5
+DS-068,Diana Morton,Miss Renee Nguyen,5,6,8,2,5.25
+DS-065,Allison Willis,David Giles,10,7,9,7,8.25
+DS-065,Allison Willis,Don Williams,5,10,9,7,7.75
+DS-065,Allison Willis,Tara Craig,6,9,6,8,7.25
+DS-065,Allison Willis,Michelle Bautista,8,6,8,7,7.25
+DS-065,Allison Willis,Natasha White,9,7,7,6,7.25
+DS-063,Lawrence Robinson Jr.,Wesley Stuart,6,10,7,1,6.0
+DS-063,Lawrence Robinson Jr.,Cynthia Sims,7,3,3,9,5.5
+DS-063,Lawrence Robinson Jr.,Karen Oliver,1,7,2,9,4.75
+DS-063,Lawrence Robinson Jr.,Kaylee Ford,6,4,6,2,4.5
+DS-063,Lawrence Robinson Jr.,Pamela Stevens,4,1,3,7,3.75
+DS-061,Emily Ballard,Michael Morales,4,2,8,9,5.75
+DS-061,Emily Ballard,Katie Marshall,10,5,1,5,5.25
+DS-061,Emily Ballard,Sean Hernandez,2,6,1,7,4.0
+DS-061,Emily Ballard,Anthony Bonilla,9,2,2,2,3.75
+DS-060,Michael Sanchez,Erica Norman,3,8,9,8,7.0
+DS-060,Michael Sanchez,Tanner Ortega,9,8,6,5,7.0
+DS-060,Michael Sanchez,Leslie Payne,7,6,6,9,7.0
+DS-060,Michael Sanchez,Christopher Clark,7,8,7,5,6.75
+DS-060,Michael Sanchez,Cory Crawford,8,9,3,1,5.25
+DS-058,Joshua Richardson,Crystal Lopez,10,6,5,9,7.5
+DS-058,Joshua Richardson,Sara Nichols,8,8,8,6,7.5
+DS-058,Joshua Richardson,Wesley Stuart,10,6,1,9,6.5
+DS-058,Joshua Richardson,Joshua Mcintosh,1,4,8,9,5.5
+DS-058,Joshua Richardson,Rodney Garcia,8,6,3,1,4.5
+DS-056,Gloria Lee,Miguel Kent,8,6,10,7,7.75
+DS-056,Gloria Lee,Mrs. Whitney Martin,5,9,9,7,7.5
+DS-056,Gloria Lee,Bradley Ball,8,9,7,6,7.5
+DS-056,Gloria Lee,Diane Pena,6,10,7,6,7.25
+DS-056,Gloria Lee,Daniel Young,7,10,3,9,7.25
+DS-053,Troy Wagner,Michael Morales,5,7,5,8,6.25
+DS-053,Troy Wagner,Mr. Roy Jackson,10,2,5,7,6.0
+DS-053,Troy Wagner,James Brown,5,6,5,6,5.5
+DS-053,Troy Wagner,Lindsay Johnson,7,4,7,4,5.5
+DS-053,Troy Wagner,Morgan Taylor,8,2,9,3,5.5
+DS-051,Gloria Lee,Joseph Rivera,5,9,10,9,8.25
+DS-051,Gloria Lee,Tony Caldwell,8,6,8,9,7.75
+DS-051,Gloria Lee,Daniel Chavez,6,9,8,6,7.25
+DS-051,Gloria Lee,Patricia Gilmore,7,6,8,6,6.75
+DS-051,Gloria Lee,Kaylee Ford,4,8,3,10,6.25
+DS-050,Joyce Lopez,Rodney Garcia,1,10,9,9,7.25
+DS-050,Joyce Lopez,Terri Marquez,7,10,7,4,7.0
+DS-050,Joyce Lopez,Kyle Davis,9,9,5,3,6.5
+DS-050,Joyce Lopez,Maria Bell,2,6,7,9,6.0
+DS-050,Joyce Lopez,Justin Kelly,4,9,6,3,5.5
+DS-044,Mary Love,Rodney Garcia,5,9,10,5,7.25
+DS-044,Mary Love,Jordan Patterson,5,10,9,3,6.75
+DS-044,Mary Love,Ross Robinson,10,8,4,1,5.75
+DS-044,Mary Love,Robert Morales,4,8,9,2,5.75
+DS-044,Mary Love,Amber Garcia,0,8,4,10,5.5
+DS-039,Joshua Richardson,Tanner Campbell,6,10,9,8,8.25
+DS-039,Joshua Richardson,Carlos Jones,8,3,7,10,7.0
+DS-039,Joshua Richardson,Kaitlin Hernandez,8,4,7,9,7.0
+DS-039,Joshua Richardson,Sabrina Miller,9,9,3,6,6.75
+DS-039,Joshua Richardson,Erika Walker,6,9,3,8,6.5
+DS-038,Jennifer Stewart,Angel Little,8,10,9,7,8.5
+DS-038,Jennifer Stewart,Susan Cruz,2,9,1,8,5.0
+DS-038,Jennifer Stewart,Austin Howard,0,1,6,8,3.75
+DS-038,Jennifer Stewart,Scott Bennett,2,2,6,5,3.75
+DS-032,Brandon Hill,Omar Norman,6,6,3,8,5.75
+DS-032,Brandon Hill,Calvin Velazquez,8,9,5,0,5.5
+DS-032,Brandon Hill,William Jensen,7,3,8,4,5.5
+DS-032,Brandon Hill,Marcus Bryant,1,3,7,9,5.0
+DS-032,Brandon Hill,Maria Bell,6,1,8,4,4.75
+DS-021,Diane Knox,Ross Robinson,10,2,3,7,5.5
+DS-021,Diane Knox,Michelle Taylor,2,3,8,8,5.25
+DS-021,Diane Knox,Angela Wilson,7,2,5,5,4.75
+DS-021,Diane Knox,Omar Norman,5,4,4,3,4.0
+DS-021,Diane Knox,Amy Miller,5,2,7,0,3.5
+DS-020,Jason Collins,Robert Harding,6,10,10,9,8.75
+DS-020,Jason Collins,Jason Aguilar,10,9,7,5,7.75
+DS-020,Jason Collins,Michelle Banks MD,6,4,10,5,6.25
+DS-020,Jason Collins,Andrew Taylor,2,2,10,2,4.0
+DS-020,Jason Collins,Mr. Matthew Boyle,7,0,7,1,3.75
+DS-006,Mrs. Katie Yu,Anthony Mcdowell,9,6,6,5,6.5
+DS-006,Mrs. Katie Yu,Erika Oliver,7,4,2,7,5.0
+DS-004,Allison Willis,Michael Harrington,6,8,9,9,8.0
+DS-004,Allison Willis,Jason Horton,5,9,8,6,7.0
+DS-004,Allison Willis,Melinda Morgan,4,6,10,6,6.5
+DS-004,Allison Willis,Pamela Cook,1,9,2,9,5.25
+DS-004,Allison Willis,Andrew Cortez,3,4,9,4,5.0
+DE-098,Mitchell Faulkner,James Meyer,10,8,7,6,7.75
+DE-098,Mitchell Faulkner,Kenneth Haynes,8,5,3,9,6.25
+DE-098,Mitchell Faulkner,James Miller,8,9,3,5,6.25
+DE-098,Mitchell Faulkner,James Blackburn,0,7,10,7,6.0
+DE-098,Mitchell Faulkner,Sharon Marshall,10,1,2,9,5.5
+DE-091,Jennifer Ramos,Jordan Patterson,4,9,10,8,7.75
+DE-091,Jennifer Ramos,Rachel Jones,3,8,9,9,7.25
+DE-091,Jennifer Ramos,Arthur Marsh,8,6,9,4,6.75
+DE-091,Jennifer Ramos,Bryan Henderson,10,4,1,9,6.0
+DE-091,Jennifer Ramos,Christopher Clark,10,2,4,7,5.75
+DE-088,Amber Powers,Wyatt Obrien,4,10,8,10,8.0
+DE-088,Amber Powers,Joyce Stephens,6,8,10,3,6.75
+DE-088,Amber Powers,Katrina Haney,3,4,9,9,6.25
+DE-088,Amber Powers,John Smith,7,7,9,2,6.25
+DE-088,Amber Powers,Jon Swanson,7,5,5,5,5.5
+DE-087,Sarah Jackson,Michelle Garcia,5,2,10,10,6.75
+DE-087,Sarah Jackson,Scott Davis,10,9,4,3,6.5
+DE-087,Sarah Jackson,Miss Heidi Bennett,7,4,6,6,5.75
+DE-087,Sarah Jackson,Richard Cooper,3,10,3,0,4.0
+DE-087,Sarah Jackson,Jacqueline Moore,0,2,1,8,2.75
+DE-078,Jennifer Ramos,Kim Bates,9,9,7,10,8.75
+DE-078,Jennifer Ramos,Jonathan Cardenas,4,8,10,10,8.0
+DE-078,Jennifer Ramos,James Solis,10,8,2,9,7.25
+DE-078,Jennifer Ramos,Robert Smith,9,7,2,8,6.5
+DE-078,Jennifer Ramos,Shannon Taylor DDS,9,3,7,5,6.0
+DE-054,Jason Collins,Mr. Jacob Moran MD,7,6,5,9,6.75
+DE-054,Jason Collins,Megan Smith,7,2,8,8,6.25
+DE-054,Jason Collins,Christopher Johnson,4,9,7,5,6.25
+DE-054,Jason Collins,Cheryl Howard,1,10,8,5,6.0
+DE-054,Jason Collins,Anthony Bonilla,0,8,7,8,5.75
+DE-046,Dana Hunter,Cynthia Johnson,10,3,9,6,7.0
+DE-046,Dana Hunter,Danielle Pittman,4,10,10,4,7.0
+DE-046,Dana Hunter,Isaac James,7,7,6,7,6.75
+DE-046,Dana Hunter,Pamela Pena,5,7,5,8,6.25
+DE-046,Dana Hunter,Anthony Lee,3,9,7,5,6.0
+DE-042,Kimberly Jones,Kelly Cox,6,10,8,5,7.25
+DE-042,Kimberly Jones,Aaron Moore,8,6,6,6,6.5
+DE-042,Kimberly Jones,Susan Cruz,7,2,7,9,6.25
+DE-042,Kimberly Jones,Mr. Frank Thompson,8,9,8,0,6.25
+DE-042,Kimberly Jones,Megan Smith,5,5,9,4,5.75
+DE-034,Annette Bailey,Bobby King,8,5,10,6,7.25
+DE-034,Annette Bailey,Aaron Knight,3,6,9,9,6.75
+DE-034,Annette Bailey,Philip Lyons,5,9,8,4,6.5
+DE-034,Annette Bailey,Jacqueline Morris,9,7,6,3,6.25
+DE-034,Annette Bailey,Robert Dunn,2,7,4,10,5.75
+DE-031,Samuel Curtis,Gregory Ferguson,9,4,10,6,7.25
+DE-031,Samuel Curtis,Heather Harmon,7,3,10,9,7.25
+DE-031,Samuel Curtis,Megan Smith,9,9,4,6,7.0
+DE-031,Samuel Curtis,Linda Graves,6,8,7,7,7.0
+DE-031,Samuel Curtis,Joshua Mcintosh,7,6,8,7,7.0
+DE-028,Jason Mccarty,Amber Wolfe,9,8,9,8,8.5
+DE-028,Jason Mccarty,Robert Dunn,7,9,6,9,7.75
+DE-028,Jason Mccarty,Danielle Woods,9,3,10,8,7.5
+DE-028,Jason Mccarty,David Sanders,6,4,10,7,6.75
+DE-028,Jason Mccarty,Cynthia Sims,8,3,8,5,6.0
+DE-025,Gregory Johnson,Andrew Pugh,5,10,8,9,8.0
+DE-025,Gregory Johnson,Kristina Moyer,8,9,8,4,7.25
+DE-025,Gregory Johnson,Zachary Wiggins,6,9,8,3,6.5
+DE-025,Gregory Johnson,Christopher Clark,5,6,5,9,6.25
+DE-025,Gregory Johnson,Kristin Griffin,9,7,1,7,6.0
+DE-024,Troy Wagner,Jeffrey Ryan,8,7,7,5,6.75
+DE-024,Troy Wagner,Amy Miller,10,6,7,4,6.75
+DE-024,Troy Wagner,Megan Wright,2,8,8,9,6.75
+DE-024,Troy Wagner,Hailey Leblanc,7,1,10,7,6.25
+DE-024,Troy Wagner,Elizabeth Schultz,0,8,6,9,5.75
+DE-022,Amber Powers,Andrew Porter,9,6,9,4,7.0
+DE-022,Amber Powers,John Wilson,1,7,9,10,6.75
+DE-022,Amber Powers,Andrew Gilbert IV,8,7,8,4,6.75
+DE-022,Amber Powers,Miguel Kent,3,10,4,7,6.0
+DE-022,Amber Powers,Diane Harris,1,7,9,7,6.0
+DE-014,Crystal Cantrell,Christopher Evans,4,6,10,5,6.25
+DE-014,Crystal Cantrell,Amber Brown,7,8,7,3,6.25
+DE-014,Crystal Cantrell,Richard Mcdonald,7,4,6,7,6.0
+DE-014,Crystal Cantrell,Eric Anderson,0,10,5,8,5.75
+DE-014,Crystal Cantrell,Matthew Cervantes,8,9,3,3,5.75
+DE-010,Rhonda Foster,Omar Norman,9,10,3,7,7.25
+DE-010,Rhonda Foster,Grace Randall,5,5,8,10,7.0
+DE-010,Rhonda Foster,Bryan Henderson,5,9,9,4,6.75
+DE-010,Rhonda Foster,Megan Henry,7,7,4,9,6.75
+DE-010,Rhonda Foster,Cathy Weber,5,8,5,8,6.5
+DE-009,Mary Love,Gina Hunt,8,10,9,6,8.25
+DE-009,Mary Love,Sharon Vargas,8,9,10,1,7.0
+DE-009,Mary Love,Kevin Davidson,5,10,3,8,6.5
+DE-009,Mary Love,Sherri Sherman,4,4,10,8,6.5
+DE-009,Mary Love,Leslie Garcia,7,1,10,5,5.75
+DE-008,Karen Galvan,Leah Moran,8,3,8,8,6.75
+DE-008,Karen Galvan,Elizabeth Schultz,7,7,3,8,6.25
+DE-008,Karen Galvan,Seth Hurley,9,1,8,6,6.0
+DE-008,Karen Galvan,Melissa York,1,10,8,5,6.0
+DE-008,Karen Galvan,Amber Garcia,10,2,2,8,5.5
